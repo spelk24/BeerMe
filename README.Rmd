@@ -19,37 +19,14 @@ knitr::opts_chunk$set(
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 <!-- badges: end -->
 
-The goal of MCBeerRecommender is to ...
+MCBeerRecommender lets you choose your favorite MolsonCoors beers (Miller, Coors, Redds, etc.) and then recommends 5 beers that you might also like.
 
-## Installation
+# Methodology
 
-You can install the released version of MCBeerRecommender from [CRAN](https://CRAN.R-project.org) with:
+# Data Source
 
-``` r
-install.packages("MCBeerRecommender")
-```
+All data was scraped from [MolsonCoors.com](https://www.molsoncoors.com/)
 
-## Example
+# Author
 
-This is a basic example which shows you how to solve a common problem:
-
-```{r example}
-library(MCBeerRecommender)
-## basic example code
-```
-
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
-```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!
+Stephen Pelkofer
