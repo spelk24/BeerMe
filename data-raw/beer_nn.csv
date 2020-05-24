@@ -1,0 +1,1333 @@
+Brand,Brand_Style,Neighbor_Rk,Neighbor_Idx,Neighbor_Dist
+Aguila,International Pale Lager,1,1,0
+Aguila,International Pale Lager,2,77,14.955961335722405
+Aguila,International Pale Lager,3,75,15.609371358468172
+Aguila,International Pale Lager,4,82,16.009576715925682
+Aguila,International Pale Lager,5,211,16.708331541561844
+Aguila,International Pale Lager,6,178,16.71830894452822
+Arnold Palmer Spiked Half & Half,Flavored Malt Beverage,1,2,0
+Arnold Palmer Spiked Half & Half,Flavored Malt Beverage,2,32,5.603860747055596
+Arnold Palmer Spiked Half & Half,Flavored Malt Beverage,3,18,12.41710334269975
+Arnold Palmer Spiked Half & Half,Flavored Malt Beverage,4,202,12.442155283703435
+Arnold Palmer Spiked Half & Half,Flavored Malt Beverage,5,170,12.456839044176943
+Arnold Palmer Spiked Half & Half,Flavored Malt Beverage,6,174,12.483858523451586
+Barmen,German-Style Pilsner,1,3,0
+Barmen,German-Style Pilsner,2,26,0.20647352260774715
+Barmen,German-Style Pilsner,3,24,0.26953920159766137
+Barmen,German-Style Pilsner,4,67,0.312614025983176
+Barmen,German-Style Pilsner,5,20,0.4198805282520397
+Barmen,German-Style Pilsner,6,71,0.5087714944141624
+Batch 19,Pre-Prohibition Style Lager,1,4,0
+Batch 19,Pre-Prohibition Style Lager,2,174,2.386413854406733
+Batch 19,Pre-Prohibition Style Lager,3,18,2.4215279612017864
+Batch 19,Pre-Prohibition Style Lager,4,202,2.4300322686194624
+Batch 19,Pre-Prohibition Style Lager,5,67,2.434608903951266
+Batch 19,Pre-Prohibition Style Lager,6,170,2.4481437986240655
+Blue Moon Belgian White,Belgian-Style Wheat Ale,1,5,0
+Blue Moon Belgian White,Belgian-Style Wheat Ale,2,169,10.177661164555259
+Blue Moon Belgian White,Belgian-Style Wheat Ale,3,158,10.2587079511948
+Blue Moon Belgian White,Belgian-Style Wheat Ale,4,81,10.588950568806617
+Blue Moon Belgian White,Belgian-Style Wheat Ale,5,76,10.817589091869603
+Blue Moon Belgian White,Belgian-Style Wheat Ale,6,198,10.846022236028436
+Blue Moon Cappuccino Oatmeal Stout,Oatmeal Stout,1,6,0
+Blue Moon Cappuccino Oatmeal Stout,Oatmeal Stout,2,9,15.993538699190644
+Blue Moon Cappuccino Oatmeal Stout,Oatmeal Stout,3,81,18.72772553010175
+Blue Moon Cappuccino Oatmeal Stout,Oatmeal Stout,4,169,18.86219420131375
+Blue Moon Cappuccino Oatmeal Stout,Oatmeal Stout,5,109,18.87100432337622
+Blue Moon Cappuccino Oatmeal Stout,Oatmeal Stout,6,86,18.872291368624232
+Blue Moon Harvest Pumpkin Wheat,Herb & Spice Beer,1,7,0
+Blue Moon Harvest Pumpkin Wheat,Herb & Spice Beer,2,156,17.49929009579546
+Blue Moon Harvest Pumpkin Wheat,Herb & Spice Beer,3,76,18.487336775813016
+Blue Moon Harvest Pumpkin Wheat,Herb & Spice Beer,4,197,18.49014785699987
+Blue Moon Harvest Pumpkin Wheat,Herb & Spice Beer,5,208,18.50167768701332
+Blue Moon Harvest Pumpkin Wheat,Herb & Spice Beer,6,198,18.5139830815406
+Blue Moon Honey Wheat,American Wheat Beer,1,8,0
+Blue Moon Honey Wheat,American Wheat Beer,2,100,15.333762216339636
+Blue Moon Honey Wheat,American Wheat Beer,3,101,15.477254717833642
+Blue Moon Honey Wheat,American Wheat Beer,4,198,15.607085383729606
+Blue Moon Honey Wheat,American Wheat Beer,5,163,15.609269947861922
+Blue Moon Honey Wheat,American Wheat Beer,6,200,15.617977571828758
+Blue Moon Iced Coffee Blonde,Blonde Ale,1,9,0
+Blue Moon Iced Coffee Blonde,Blonde Ale,2,100,11.52532367425877
+Blue Moon Iced Coffee Blonde,Blonde Ale,3,158,11.785066043984143
+Blue Moon Iced Coffee Blonde,Blonde Ale,4,169,11.860200239259896
+Blue Moon Iced Coffee Blonde,Blonde Ale,5,114,11.866651979490188
+Blue Moon Iced Coffee Blonde,Blonde Ale,6,81,11.921496269939562
+Blue Moon LightSky,Ale with Tangerine Peel,1,10,0
+Blue Moon LightSky,Ale with Tangerine Peel,2,4,16.314483393365347
+Blue Moon LightSky,Ale with Tangerine Peel,3,101,16.339811660495084
+Blue Moon LightSky,Ale with Tangerine Peel,4,125,16.36053838236278
+Blue Moon LightSky,Ale with Tangerine Peel,5,211,16.39227039959596
+Blue Moon LightSky,Ale with Tangerine Peel,6,214,16.39264981323061
+Blue Moon Mango Wheat,Fruit Beer,1,11,0
+Blue Moon Mango Wheat,Fruit Beer,2,100,15.524870370202613
+Blue Moon Mango Wheat,Fruit Beer,3,113,15.691967455383066
+Blue Moon Mango Wheat,Fruit Beer,4,98,15.695853815699552
+Blue Moon Mango Wheat,Fruit Beer,5,76,15.757778507275818
+Blue Moon Mango Wheat,Fruit Beer,6,197,15.766316374859118
+Blue Moon Pacific Apricot Wheat,Fruit Beer,1,12,0
+Blue Moon Pacific Apricot Wheat,Fruit Beer,2,198,22.890253553660354
+Blue Moon Pacific Apricot Wheat,Fruit Beer,3,163,22.89548640371365
+Blue Moon Pacific Apricot Wheat,Fruit Beer,4,76,22.90270758408362
+Blue Moon Pacific Apricot Wheat,Fruit Beer,5,166,22.905964143390243
+Blue Moon Pacific Apricot Wheat,Fruit Beer,6,197,22.912046328593995
+Blue Moon Winter Wheat,Spiced Abbey Ale,1,13,0
+Blue Moon Winter Wheat,Spiced Abbey Ale,2,5,26.714693396397315
+Blue Moon Winter Wheat,Spiced Abbey Ale,3,169,26.92029782006961
+Blue Moon Winter Wheat,Spiced Abbey Ale,4,158,26.924796056864185
+Blue Moon Winter Wheat,Spiced Abbey Ale,5,81,27.004995022281655
+Blue Moon Winter Wheat,Spiced Abbey Ale,6,197,27.157476123473053
+Cape Line Blackberry Mojito,Sparkling Cocktail,1,14,0
+Cape Line Blackberry Mojito,Sparkling Cocktail,2,15,14.934921063361703
+Cape Line Blackberry Mojito,Sparkling Cocktail,3,16,18.26210681861612
+Cape Line Blackberry Mojito,Sparkling Cocktail,4,211,22.00556767831138
+Cape Line Blackberry Mojito,Sparkling Cocktail,5,178,22.01315244315332
+Cape Line Blackberry Mojito,Sparkling Cocktail,6,170,22.013769975906744
+Cape Line Hard Strawberry Lemonade,Sparkling Cocktail,1,15,0
+Cape Line Hard Strawberry Lemonade,Sparkling Cocktail,2,14,14.934921063361703
+Cape Line Hard Strawberry Lemonade,Sparkling Cocktail,3,17,18.29625619660882
+Cape Line Hard Strawberry Lemonade,Sparkling Cocktail,4,211,22.008717182880158
+Cape Line Hard Strawberry Lemonade,Sparkling Cocktail,5,170,22.013174382200155
+Cape Line Hard Strawberry Lemonade,Sparkling Cocktail,6,178,22.01481073158706
+Cape Line Margarita,Sparkling Cocktail,1,16,0
+Cape Line Margarita,Sparkling Cocktail,2,14,18.26210681861612
+Cape Line Margarita,Sparkling Cocktail,3,15,23.591447870433697
+Cape Line Margarita,Sparkling Cocktail,4,211,24.38730127320768
+Cape Line Margarita,Sparkling Cocktail,5,178,24.39414550729256
+Cape Line Margarita,Sparkling Cocktail,6,170,24.394702767149838
+Cape Line White Peach Sangria,Sparkling Cocktail,1,17,0
+Cape Line White Peach Sangria,Sparkling Cocktail,2,15,18.29625619660882
+Cape Line White Peach Sangria,Sparkling Cocktail,3,14,23.609607087090225
+Cape Line White Peach Sangria,Sparkling Cocktail,4,211,24.4039777334716
+Cape Line White Peach Sangria,Sparkling Cocktail,5,214,24.41089470930337
+Cape Line White Peach Sangria,Sparkling Cocktail,6,178,24.414204101310354
+Colorado Native Amber Lager,American Amber Lager,1,18,0
+Colorado Native Amber Lager,American Amber Lager,2,170,0.3403030286992035
+Colorado Native Amber Lager,American Amber Lager,3,174,0.36214435894749675
+Colorado Native Amber Lager,American Amber Lager,4,178,0.5384542061671539
+Colorado Native Amber Lager,American Amber Lager,5,67,0.7811463942483086
+Colorado Native Amber Lager,American Amber Lager,6,211,0.8136683602257991
+Colorado Native Apricot,Fruited Barrel-Aged Sour,1,19,0
+Colorado Native Apricot,Fruited Barrel-Aged Sour,2,18,15.842432816231376
+Colorado Native Apricot,Fruited Barrel-Aged Sour,3,174,15.843149838125589
+Colorado Native Apricot,Fruited Barrel-Aged Sour,4,170,15.851330138850129
+Colorado Native Apricot,Fruited Barrel-Aged Sour,5,178,15.853802153882661
+Colorado Native Apricot,Fruited Barrel-Aged Sour,6,214,15.855875021941385
+Colorado Native Golden Lager,American Amber Lager,1,20,0
+Colorado Native Golden Lager,American Amber Lager,2,26,0.41361005248325083
+Colorado Native Golden Lager,American Amber Lager,3,3,0.4198805282520397
+Colorado Native Golden Lager,American Amber Lager,4,24,0.4959712415671308
+Colorado Native Golden Lager,American Amber Lager,5,67,0.5698120728908515
+Colorado Native Golden Lager,American Amber Lager,6,71,0.7226485006871941
+Colorado Native Imperial Porter,Imperial Porter,1,21,0
+Colorado Native Imperial Porter,Imperial Porter,2,23,5.830554064420868
+Colorado Native Imperial Porter,Imperial Porter,3,68,11.914240248786895
+Colorado Native Imperial Porter,Imperial Porter,4,165,11.971846035380967
+Colorado Native Imperial Porter,Imperial Porter,5,30,12.037506762684544
+Colorado Native Imperial Porter,Imperial Porter,6,69,12.038882969312368
+Colorado Native Kriek,Fruited Barrel-Aged Sour,1,22,0
+Colorado Native Kriek,Fruited Barrel-Aged Sour,2,171,15.850317308442214
+Colorado Native Kriek,Fruited Barrel-Aged Sour,3,213,15.854548745280194
+Colorado Native Kriek,Fruited Barrel-Aged Sour,4,30,15.856513998216728
+Colorado Native Kriek,Fruited Barrel-Aged Sour,5,73,15.863129327608645
+Colorado Native Kriek,Fruited Barrel-Aged Sour,6,69,15.86488041207889
+Colorado Native LoCal,American-Style Light Lager,1,23,0
+Colorado Native LoCal,American-Style Light Lager,2,21,5.830554064420868
+Colorado Native LoCal,American-Style Light Lager,3,211,11.9411755534093
+Colorado Native LoCal,American-Style Light Lager,4,214,11.944333276157849
+Colorado Native LoCal,American-Style Light Lager,5,51,11.953968601999508
+Colorado Native LoCal,American-Style Light Lager,6,178,11.961679928353085
+Colorado Native Olathe,American Lager,1,24,0
+Colorado Native Olathe,American Lager,2,67,0.24569178453506388
+Colorado Native Olathe,American Lager,3,3,0.26953920159766137
+Colorado Native Olathe,American Lager,4,26,0.36494778067648226
+Colorado Native Olathe,American Lager,5,71,0.39905590956642334
+Colorado Native Olathe,American Lager,6,51,0.4260575396466086
+Colorado Native Peche,Fruited Barrel-Aged Sour,1,25,0
+Colorado Native Peche,Fruited Barrel-Aged Sour,2,214,15.848032172166926
+Colorado Native Peche,Fruited Barrel-Aged Sour,3,178,15.856185709686992
+Colorado Native Peche,Fruited Barrel-Aged Sour,4,174,15.858295578834268
+Colorado Native Peche,Fruited Barrel-Aged Sour,5,18,15.85855227059991
+Colorado Native Peche,Fruited Barrel-Aged Sour,6,170,15.861551526378227
+Colorado Native Pilsner,American-Style Pilsner,1,26,0
+Colorado Native Pilsner,American-Style Pilsner,2,3,0.20647352260774715
+Colorado Native Pilsner,American-Style Pilsner,3,24,0.36494778067648226
+Colorado Native Pilsner,American-Style Pilsner,4,67,0.38263643773493417
+Colorado Native Pilsner,American-Style Pilsner,5,20,0.41361005248325083
+Colorado Native Pilsner,American-Style Pilsner,6,71,0.564930977202104
+Colorado Native Plum,Fruited Barrel-Aged Sour,1,27,0
+Colorado Native Plum,Fruited Barrel-Aged Sour,2,202,15.866009844271133
+Colorado Native Plum,Fruited Barrel-Aged Sour,3,72,15.869082456914605
+Colorado Native Plum,Fruited Barrel-Aged Sour,4,204,15.870549278252138
+Colorado Native Plum,Fruited Barrel-Aged Sour,5,174,15.875344435128229
+Colorado Native Plum,Fruited Barrel-Aged Sour,6,18,15.876170466875543
+Colorado Native Saison,Saison,1,28,0
+Colorado Native Saison,Saison,2,51,15.838139529574896
+Colorado Native Saison,Saison,3,214,15.841085576420925
+Colorado Native Saison,Saison,4,71,15.846048421459747
+Colorado Native Saison,Saison,5,24,15.84725530388063
+Colorado Native Saison,Saison,6,67,15.852081279418389
+Colorado Native West Slope IPA,American IPA,1,29,0
+Colorado Native West Slope IPA,American IPA,2,80,0.6125606994797721
+Colorado Native West Slope IPA,American IPA,3,213,1.0622415897341528
+Colorado Native West Slope IPA,American IPA,4,73,1.1065433087241519
+Colorado Native West Slope IPA,American IPA,5,171,1.183113228865135
+Colorado Native West Slope IPA,American IPA,6,30,1.2079101469877669
+Colorado Native Winterfest,German-Style Bock,1,30,0
+Colorado Native Winterfest,German-Style Bock,2,171,0.4656122188604575
+Colorado Native Winterfest,German-Style Bock,3,213,0.5536515532515143
+Colorado Native Winterfest,German-Style Bock,4,69,0.5862842358322963
+Colorado Native Winterfest,German-Style Bock,5,204,0.7342471270219257
+Colorado Native Winterfest,German-Style Bock,6,73,0.9008031044482612
+Coors Banquet,American-Style Lager,1,31,0
+Coors Banquet,American-Style Lager,2,90,0.8696452655753809
+Coors Banquet,American-Style Lager,3,87,0.8930726893315859
+Coors Banquet,American-Style Lager,4,121,1.1850830112290331
+Coors Banquet,American-Style Lager,5,89,1.220254749615369
+Coors Banquet,American-Style Lager,6,33,1.3177910615026325
+Coors Edge,Non-Alcoholic Lager,1,32,0
+Coors Edge,Non-Alcoholic Lager,2,2,5.603860747055596
+Coors Edge,Non-Alcoholic Lager,3,123,12.291357851684143
+Coors Edge,Non-Alcoholic Lager,4,211,12.41479443642987
+Coors Edge,Non-Alcoholic Lager,5,88,12.44638570138373
+Coors Edge,Non-Alcoholic Lager,6,126,12.448751740273726
+Coors Light,American-Style Light Lager,1,33,0
+Coors Light,American-Style Light Lager,2,88,0.13516653346649926
+Coors Light,American-Style Light Lager,3,89,0.2069613712929191
+Coors Light,American-Style Light Lager,4,121,0.22507772993463435
+Coors Light,American-Style Light Lager,5,126,0.2832023227086866
+Coors Light,American-Style Light Lager,6,123,1.20644564041771
+Coors Non-Alcoholic,Non-Alcoholic Lager,1,34,0
+Coors Non-Alcoholic,Non-Alcoholic Lager,2,91,6.312093695583638
+Coors Non-Alcoholic,Non-Alcoholic Lager,3,218,6.398490810946687
+Coors Non-Alcoholic,Non-Alcoholic Lager,4,50,7.016407861139566
+Coors Non-Alcoholic,Non-Alcoholic Lager,5,48,7.847858448274482
+Coors Non-Alcoholic,Non-Alcoholic Lager,6,84,8.025243205570584
+Crispin Blackberry Pear,Pear Cider,1,35,0
+Crispin Blackberry Pear,Pear Cider,2,41,38.162111417289566
+Crispin Blackberry Pear,Pear Cider,3,42,38.5646706976042
+Crispin Blackberry Pear,Pear Cider,4,18,38.77905528917991
+Crispin Blackberry Pear,Pear Cider,5,170,38.78398601815195
+Crispin Blackberry Pear,Pear Cider,6,178,38.79355124665775
+Crispin Browns Lane,English-Style Cider,1,36,0
+Crispin Browns Lane,English-Style Cider,2,18,18.294414874452592
+Crispin Browns Lane,English-Style Cider,3,170,18.309637259969268
+Crispin Browns Lane,English-Style Cider,4,178,18.327500659948107
+Crispin Browns Lane,English-Style Cider,5,211,18.336535310199746
+Crispin Browns Lane,English-Style Cider,6,174,18.33819775336662
+Crispin Brut,Apple Cider,1,37,0
+Crispin Brut,Apple Cider,2,39,0.5445884786710166
+Crispin Brut,Apple Cider,3,111,14.626645878331054
+Crispin Brut,Apple Cider,4,110,14.626645878331054
+Crispin Brut,Apple Cider,5,112,14.626645878331054
+Crispin Brut,Apple Cider,6,18,14.648193495406689
+Crispin Honey Crisp,Apple Cider,1,38,0
+Crispin Honey Crisp,Apple Cider,2,37,17.256130257477857
+Crispin Honey Crisp,Apple Cider,3,39,17.26152659106442
+Crispin Honey Crisp,Apple Cider,4,18,19.07278535444996
+Crispin Honey Crisp,Apple Cider,5,170,19.100263599376582
+Crispin Honey Crisp,Apple Cider,6,174,19.118867680757294
+Crispin Original Cider,Apple Cider,1,39,0
+Crispin Original Cider,Apple Cider,2,37,0.5445884786710166
+Crispin Original Cider,Apple Cider,3,111,14.671031275611806
+Crispin Original Cider,Apple Cider,4,110,14.671031275611806
+Crispin Original Cider,Apple Cider,5,112,14.671031275611806
+Crispin Original Cider,Apple Cider,6,18,14.679295487999264
+Crispin Pacific Pear,Pear Cider,1,40,0
+Crispin Pacific Pear,Pear Cider,2,39,23.486147786144347
+Crispin Pacific Pear,Pear Cider,3,37,23.50475522086421
+Crispin Pacific Pear,Pear Cider,4,18,23.523160858260482
+Crispin Pacific Pear,Pear Cider,5,170,23.528007326172514
+Crispin Pacific Pear,Pear Cider,6,111,23.536818936963012
+Crispin Pearsecco,Pear Cider,1,41,0
+Crispin Pearsecco,Pear Cider,2,42,5.772484690345608
+Crispin Pearsecco,Pear Cider,3,211,17.130944189032057
+Crispin Pearsecco,Pear Cider,4,170,17.13732823452622
+Crispin Pearsecco,Pear Cider,5,178,17.138907177396
+Crispin Pearsecco,Pear Cider,6,18,17.143688884982858
+Crispin Rose,Hard Cider,1,42,0
+Crispin Rose,Hard Cider,2,41,5.772484690345608
+Crispin Rose,Hard Cider,3,37,16.75103123653813
+Crispin Rose,Hard Cider,4,39,16.753588598713744
+Crispin Rose,Hard Cider,5,18,18.050621609657135
+Crispin Rose,Hard Cider,6,170,18.0553650542191
+Crispin The Saint,Apple Cider,1,43,0
+Crispin The Saint,Apple Cider,2,39,15.341343146009889
+Crispin The Saint,Apple Cider,3,37,15.346614306613079
+Crispin The Saint,Apple Cider,4,18,20.76867595306263
+Crispin The Saint,Apple Cider,5,170,20.803112877657494
+Crispin The Saint,Apple Cider,6,174,20.8173524087832
+Cristal,International Pale Lager,1,44,0
+Cristal,International Pale Lager,2,45,14.929376581084327
+Cristal,International Pale Lager,3,70,15.058609551358819
+Cristal,International Pale Lager,4,46,15.146195762958758
+Cristal,International Pale Lager,5,155,15.509471167465222
+Cristal,International Pale Lager,6,79,15.723299754909032
+Cusquena,International Pale Lager,1,45,0
+Cusquena,International Pale Lager,2,70,1.579311316539292
+Cusquena,International Pale Lager,3,46,2.211900490380166
+Cusquena,International Pale Lager,4,155,4.351777480980854
+Cusquena,International Pale Lager,5,79,4.72485098220469
+Cusquena,International Pale Lager,6,71,5.2996776093643145
+Cusquena Dark,International Dark Lager,1,46,0
+Cusquena Dark,International Dark Lager,2,70,1.5977916849580784
+Cusquena Dark,International Dark Lager,3,45,2.211900490380166
+Cusquena Dark,International Dark Lager,4,155,4.626747969296961
+Cusquena Dark,International Dark Lager,5,79,4.908831532023758
+Cusquena Dark,International Dark Lager,6,202,5.431841585507506
+Extra Gold,American-Style Lager,1,47,0
+Extra Gold,American-Style Lager,2,135,0.043031781196864925
+Extra Gold,American-Style Lager,3,129,0.15830680707306433
+Extra Gold,American-Style Lager,4,120,0.33622872351015204
+Extra Gold,American-Style Lager,5,130,0.6093047580819672
+Extra Gold,American-Style Lager,6,131,2.027368122609386
+Foster's,International Pale Lager,1,48,0
+Foster's,International Pale Lager,2,84,2.9834078360504184
+Foster's,International Pale Lager,3,116,2.990387649333856
+Foster's,International Pale Lager,4,117,2.990387649333856
+Foster's,International Pale Lager,5,136,3.038252669653247
+Foster's,International Pale Lager,6,137,3.5819039356728806
+Foster's Premium Ale,Strong Bitter (ESB),1,49,0
+Foster's Premium Ale,Strong Bitter (ESB),2,116,4.376588281302029
+Foster's Premium Ale,Strong Bitter (ESB),3,117,4.376588281302029
+Foster's Premium Ale,Strong Bitter (ESB),4,136,4.3918105073603515
+Foster's Premium Ale,Strong Bitter (ESB),5,84,4.394163366099927
+Foster's Premium Ale,Strong Bitter (ESB),6,48,4.449171079699562
+George Killian's Irish Red,Irish Red Lager,1,50,0
+George Killian's Irish Red,Irish Red Lager,2,218,2.8779245966838864
+George Killian's Irish Red,Irish Red Lager,3,91,2.9425330012577113
+George Killian's Irish Red,Irish Red Lager,4,34,7.016407861139566
+George Killian's Irish Red,Irish Red Lager,5,109,7.027687169315912
+George Killian's Irish Red,Irish Red Lager,6,86,7.029915300645584
+Grolsch Premium Lager,International Pale Lager,1,51,0
+Grolsch Premium Lager,International Pale Lager,2,71,0.4055051660143372
+Grolsch Premium Lager,International Pale Lager,3,24,0.4260575396466086
+Grolsch Premium Lager,International Pale Lager,4,214,0.5787461073580785
+Grolsch Premium Lager,International Pale Lager,5,67,0.5801493857785553
+Grolsch Premium Lager,International Pale Lager,6,3,0.5988154203033899
+Hamm's,American-Style Lager,1,52,0
+Hamm's,American-Style Lager,2,182,0.1928265748851029
+Hamm's,American-Style Lager,3,124,0.2392113677820113
+Hamm's,American-Style Lager,4,127,0.36835258425727196
+Hamm's,American-Style Lager,5,55,0.5094869518574735
+Hamm's,American-Style Lager,6,86,1.3002797393079861
+Hamm's Special Light,American-Style Light Lager,1,53,0
+Hamm's Special Light,American-Style Light Lager,2,91,15.024585798286294
+Hamm's Special Light,American-Style Light Lager,3,218,15.040931707289527
+Hamm's Special Light,American-Style Light Lager,4,50,15.27129522006454
+Hamm's Special Light,American-Style Light Lager,5,34,15.938783828455126
+Hamm's Special Light,American-Style Light Lager,6,211,16.518942469509128
+Henry Weinhard's Blue Boar,American-Style Cream Ale,1,54,0
+Henry Weinhard's Blue Boar,American-Style Cream Ale,2,211,14.903851085509055
+Henry Weinhard's Blue Boar,American-Style Cream Ale,3,178,14.907475938306524
+Henry Weinhard's Blue Boar,American-Style Cream Ale,4,170,14.913757650876263
+Henry Weinhard's Blue Boar,American-Style Cream Ale,5,214,14.917892899974834
+Henry Weinhard's Blue Boar,American-Style Cream Ale,6,18,14.925260081600134
+Henry Weinhard's Private Reserve,American Pale Lager,1,55,0
+Henry Weinhard's Private Reserve,American Pale Lager,2,52,0.5094869518574735
+Henry Weinhard's Private Reserve,American Pale Lager,3,124,0.5336740646935902
+Henry Weinhard's Private Reserve,American Pale Lager,4,182,0.5969007299099277
+Henry Weinhard's Private Reserve,American Pale Lager,5,127,0.6310264079978852
+Henry Weinhard's Private Reserve,American Pale Lager,6,86,0.8354857697485786
+Henry's Hard Soda Hard Cherry Cola,Hard Soda,1,56,0
+Henry's Hard Soda Hard Cherry Cola,Hard Soda,2,57,15.596677426919028
+Henry's Hard Soda Hard Cherry Cola,Hard Soda,3,146,16.494549699804413
+Henry's Hard Soda Hard Cherry Cola,Hard Soda,4,59,16.561028575941187
+Henry's Hard Soda Hard Cherry Cola,Hard Soda,5,153,16.746249091686405
+Henry's Hard Soda Hard Cherry Cola,Hard Soda,6,154,16.752733817700324
+Henry's Hard Soda Hard Ginger Ale,Hard Soda,1,57,0
+Henry's Hard Soda Hard Ginger Ale,Hard Soda,2,59,5.523853974744097
+Henry's Hard Soda Hard Ginger Ale,Hard Soda,3,146,7.584134946494144
+Henry's Hard Soda Hard Ginger Ale,Hard Soda,4,58,7.687212383600384
+Henry's Hard Soda Hard Ginger Ale,Hard Soda,5,60,7.769570730218838
+Henry's Hard Soda Hard Ginger Ale,Hard Soda,6,154,8.181300927105767
+Henry's Hard Soda Hard Grape,Hard Soda,1,58,0
+Henry's Hard Soda Hard Grape,Hard Soda,2,60,1.5257559328607564
+Henry's Hard Soda Hard Grape,Hard Soda,3,59,5.7625034654796545
+Henry's Hard Soda Hard Grape,Hard Soda,4,57,7.687212383600384
+Henry's Hard Soda Hard Grape,Hard Soda,5,149,9.231608064430482
+Henry's Hard Soda Hard Grape,Hard Soda,6,144,9.414368107865068
+Henry's Hard Soda Hard Lemon Lime,Hard Soda,1,59,0
+Henry's Hard Soda Hard Lemon Lime,Hard Soda,2,60,5.510341015144875
+Henry's Hard Soda Hard Lemon Lime,Hard Soda,3,57,5.523853974744097
+Henry's Hard Soda Hard Lemon Lime,Hard Soda,4,58,5.7625034654796545
+Henry's Hard Soda Hard Lemon Lime,Hard Soda,5,192,8.354095186899945
+Henry's Hard Soda Hard Lemon Lime,Hard Soda,6,146,8.940975435487031
+Henry's Hard Soda Hard Orange,Hard Soda,1,60,0
+Henry's Hard Soda Hard Orange,Hard Soda,2,58,1.5257559328607564
+Henry's Hard Soda Hard Orange,Hard Soda,3,59,5.510341015144875
+Henry's Hard Soda Hard Orange,Hard Soda,4,57,7.769570730218838
+Henry's Hard Soda Hard Orange,Hard Soda,5,144,8.985737510163869
+Henry's Hard Soda Hard Orange,Hard Soda,6,149,9.246564298256562
+Henry's Hard Sparkling Blueberry Lemon,Spiked Sparkling Water,1,61,0
+Henry's Hard Sparkling Blueberry Lemon,Spiked Sparkling Water,2,65,3.275889010680438
+Henry's Hard Sparkling Blueberry Lemon,Spiked Sparkling Water,3,62,3.2759146685798135
+Henry's Hard Sparkling Blueberry Lemon,Spiked Sparkling Water,4,126,9.58095692252741
+Henry's Hard Sparkling Blueberry Lemon,Spiked Sparkling Water,5,88,9.588792236295895
+Henry's Hard Sparkling Blueberry Lemon,Spiked Sparkling Water,6,33,9.588850049038065
+Henry's Hard Sparkling Lemon Lime,Spiked Sparkling Water,1,62,0
+Henry's Hard Sparkling Lemon Lime,Spiked Sparkling Water,2,65,0.22129094589462778
+Henry's Hard Sparkling Lemon Lime,Spiked Sparkling Water,3,61,3.2759146685798135
+Henry's Hard Sparkling Lemon Lime,Spiked Sparkling Water,4,126,9.007234270442265
+Henry's Hard Sparkling Lemon Lime,Spiked Sparkling Water,5,33,9.013996614157753
+Henry's Hard Sparkling Lemon Lime,Spiked Sparkling Water,6,88,9.015344456518754
+Henry's Hard Sparkling Passion Fruit,Spiked Sparkling Water,1,63,0
+Henry's Hard Sparkling Passion Fruit,Spiked Sparkling Water,2,66,0
+Henry's Hard Sparkling Passion Fruit,Spiked Sparkling Water,3,64,0.11045539508712417
+Henry's Hard Sparkling Passion Fruit,Spiked Sparkling Water,4,126,9.004192753119675
+Henry's Hard Sparkling Passion Fruit,Spiked Sparkling Water,5,88,9.01252950812675
+Henry's Hard Sparkling Passion Fruit,Spiked Sparkling Water,6,33,9.012591017401393
+Henry's Hard Sparkling Peach Mango,Spiked Sparkling Water,1,64,0
+Henry's Hard Sparkling Peach Mango,Spiked Sparkling Water,2,63,0.11045539508712417
+Henry's Hard Sparkling Peach Mango,Spiked Sparkling Water,3,66,0.11045539508712417
+Henry's Hard Sparkling Peach Mango,Spiked Sparkling Water,4,126,9.007579536526565
+Henry's Hard Sparkling Peach Mango,Spiked Sparkling Water,5,33,9.014621347003757
+Henry's Hard Sparkling Peach Mango,Spiked Sparkling Water,6,88,9.015913159873195
+Henry's Hard Sparkling Pineapple,Spiked Sparkling Water,1,65,0
+Henry's Hard Sparkling Pineapple,Spiked Sparkling Water,2,62,0.22129094589462778
+Henry's Hard Sparkling Pineapple,Spiked Sparkling Water,3,61,3.275889010680438
+Henry's Hard Sparkling Pineapple,Spiked Sparkling Water,4,126,9.002160071472918
+Henry's Hard Sparkling Pineapple,Spiked Sparkling Water,5,88,9.010498707171752
+Henry's Hard Sparkling Pineapple,Spiked Sparkling Water,6,33,9.011914139218172
+Henry's Hard Sparkling Strawberry Kiwi,Spiked Sparkling Water,1,66,0
+Henry's Hard Sparkling Strawberry Kiwi,Spiked Sparkling Water,2,66,0
+Henry's Hard Sparkling Strawberry Kiwi,Spiked Sparkling Water,3,64,0.11045539508712417
+Henry's Hard Sparkling Strawberry Kiwi,Spiked Sparkling Water,4,126,9.004192753119675
+Henry's Hard Sparkling Strawberry Kiwi,Spiked Sparkling Water,5,88,9.01252950812675
+Henry's Hard Sparkling Strawberry Kiwi,Spiked Sparkling Water,6,33,9.012591017401393
+Private Reserve,Vienna-Style Lager,1,67,0
+Private Reserve,Vienna-Style Lager,2,24,0.24569178453506388
+Private Reserve,Vienna-Style Lager,3,3,0.312614025983176
+Private Reserve,Vienna-Style Lager,4,26,0.38263643773493417
+Private Reserve,Vienna-Style Lager,5,178,0.47941993996500026
+Private Reserve,Vienna-Style Lager,6,174,0.4934930329590643
+Hop Valley Alpha Centauri IPA,Imperial IPA,1,68,0
+Hop Valley Alpha Centauri IPA,Imperial IPA,2,69,1.6818884606672455
+Hop Valley Alpha Centauri IPA,Imperial IPA,3,30,1.962011647788047
+Hop Valley Alpha Centauri IPA,Imperial IPA,4,171,2.1189417693195076
+Hop Valley Alpha Centauri IPA,Imperial IPA,5,165,2.199175811200497
+Hop Valley Alpha Centauri IPA,Imperial IPA,6,204,2.2665565722710515
+Hop Valley Alphadelic IPA,IPA,1,69,0
+Hop Valley Alphadelic IPA,IPA,2,171,0.5443878806673113
+Hop Valley Alphadelic IPA,IPA,3,30,0.5862842358322963
+Hop Valley Alphadelic IPA,IPA,4,213,0.7921385007712685
+Hop Valley Alphadelic IPA,IPA,5,204,0.9922091475693045
+Hop Valley Alphadelic IPA,IPA,6,80,1.0583296281124954
+Hop Valley Bambino Stash,IPA,1,70,0
+Hop Valley Bambino Stash,IPA,2,45,1.579311316539292
+Hop Valley Bambino Stash,IPA,3,46,1.5977916849580784
+Hop Valley Bambino Stash,IPA,4,79,4.191103686079469
+Hop Valley Bambino Stash,IPA,5,155,4.728499795650255
+Hop Valley Bambino Stash,IPA,6,20,5.443276795390568
+Hop Valley Blonde Ale,Blonde Ale,1,71,0
+Hop Valley Blonde Ale,Blonde Ale,2,24,0.39905590956642334
+Hop Valley Blonde Ale,Blonde Ale,3,51,0.4055051660143372
+Hop Valley Blonde Ale,Blonde Ale,4,214,0.48815410544766025
+Hop Valley Blonde Ale,Blonde Ale,5,67,0.49624161942355643
+Hop Valley Blonde Ale,Blonde Ale,6,3,0.5087714944141624
+Hop Valley Bubble Stash,India Pale Ale,1,72,0
+Hop Valley Bubble Stash,India Pale Ale,2,202,0.31028667911351815
+Hop Valley Bubble Stash,India Pale Ale,3,73,0.5938049145825754
+Hop Valley Bubble Stash,India Pale Ale,4,213,0.7111915510665097
+Hop Valley Bubble Stash,India Pale Ale,5,204,0.8721626888418784
+Hop Valley Bubble Stash,India Pale Ale,6,20,0.8956156797563292
+Hop Valley Citrus Mistress,American-Style IPA,1,73,0
+Hop Valley Citrus Mistress,American-Style IPA,2,213,0.4695362442570189
+Hop Valley Citrus Mistress,American-Style IPA,3,72,0.5938049145825754
+Hop Valley Citrus Mistress,American-Style IPA,4,171,0.6193131905858655
+Hop Valley Citrus Mistress,American-Style IPA,5,80,0.6934265525327803
+Hop Valley Citrus Mistress,American-Style IPA,6,204,0.7193876883538238
+Hop Valley Cryo Stash,Imperial IPA,1,74,0
+Hop Valley Cryo Stash,Imperial IPA,2,172,8.9920068793501855
+Hop Valley Cryo Stash,Imperial IPA,3,46,9.029408624492767
+Hop Valley Cryo Stash,Imperial IPA,4,70,9.058929023418163
+Hop Valley Cryo Stash,Imperial IPA,5,45,9.473770859868136
+Hop Valley Cryo Stash,Imperial IPA,6,79,9.82934236054447
+Hop Valley Divine Shine,Hybrid Ale,1,75,0
+Hop Valley Divine Shine,Hybrid Ale,2,82,2.8610065708047863
+Hop Valley Divine Shine,Hybrid Ale,3,77,4.548174992545772
+Hop Valley Divine Shine,Hybrid Ale,4,169,7.645190233127862
+Hop Valley Divine Shine,Hybrid Ale,5,158,7.808746470711689
+Hop Valley Divine Shine,Hybrid Ale,6,81,8.344508883141646
+Hop Valley Hefe,American Hefeweizen,1,76,0
+Hop Valley Hefe,American Hefeweizen,2,198,0.7260007172105611
+Hop Valley Hefe,American Hefeweizen,3,163,0.8630348817796232
+Hop Valley Hefe,American Hefeweizen,4,200,1.0833053943704423
+Hop Valley Hefe,American Hefeweizen,5,197,1.1894387001145108
+Hop Valley Hefe,American Hefeweizen,6,208,1.4539012678083336
+Hop Valley Light MeUp Lager,American Lager,1,77,0
+Hop Valley Light MeUp Lager,American Lager,2,75,4.548174992545772
+Hop Valley Light MeUp Lager,American Lager,3,82,5.452443891087179
+Hop Valley Light MeUp Lager,American Lager,4,71,7.540408256317005
+Hop Valley Light MeUp Lager,American Lager,5,51,7.545587296119765
+Hop Valley Light MeUp Lager,American Lager,6,211,7.552467954982955
+Hop Valley Mango & Stash,Mango IPA,1,78,0
+Hop Valley Mango & Stash,Mango IPA,2,76,12.9639236865538
+Hop Valley Mango & Stash,Mango IPA,3,197,12.983159270137863
+Hop Valley Mango & Stash,Mango IPA,4,208,13.005414000917067
+Hop Valley Mango & Stash,Mango IPA,5,198,13.009373813322762
+Hop Valley Mango & Stash,Mango IPA,6,163,13.02321763915781
+Hop Valley Palisaderade,IPA,1,79,0
+Hop Valley Palisaderade,IPA,2,70,4.191103686079469
+Hop Valley Palisaderade,IPA,3,45,4.72485098220469
+Hop Valley Palisaderade,IPA,4,46,4.908831532023758
+Hop Valley Palisaderade,IPA,5,81,6.2868448172915725
+Hop Valley Palisaderade,IPA,6,169,6.5482391288837745
+Hop Valley Red Ale,American Red Ale,1,80,0
+Hop Valley Red Ale,American Red Ale,2,29,0.6125606994797721
+Hop Valley Red Ale,American Red Ale,3,73,0.6934265525327803
+Hop Valley Red Ale,American Red Ale,4,213,0.7813019467402597
+Hop Valley Red Ale,American Red Ale,5,171,0.8589178040928149
+Hop Valley Red Ale,American Red Ale,6,30,1.0114589432688659
+Hop Valley Secret Chief American Stout,American Stout,1,81,0
+Hop Valley Secret Chief American Stout,American Stout,2,158,3.0358471086069745
+Hop Valley Secret Chief American Stout,American Stout,3,169,3.2602780754156444
+Hop Valley Secret Chief American Stout,American Stout,4,30,3.845435314001665
+Hop Valley Secret Chief American Stout,American Stout,5,29,3.859387856591118
+Hop Valley Secret Chief American Stout,American Stout,6,213,3.861706334543326
+Hop Valley Solid Baby,IPA,1,82,0
+Hop Valley Solid Baby,IPA,2,75,2.8610065708047863
+Hop Valley Solid Baby,IPA,3,77,5.452443891087179
+Hop Valley Solid Baby,IPA,4,169,7.747784692123708
+Hop Valley Solid Baby,IPA,5,158,7.832889620412896
+Hop Valley Solid Baby,IPA,6,81,7.994008607760927
+Hop Valley VIP,American Porter,1,83,0
+Hop Valley VIP,American Porter,2,72,17.231182974606615
+Hop Valley VIP,American Porter,3,73,17.231287563308506
+Hop Valley VIP,American Porter,4,202,17.23267994442475
+Hop Valley VIP,American Porter,5,20,17.234274313537387
+Hop Valley VIP,American Porter,6,213,17.241478823457115
+Icehouse,American-Style Ice Lager,1,84,0
+Icehouse,American-Style Ice Lager,2,116,0.19248471240321272
+Icehouse,American-Style Ice Lager,3,117,0.19248471240321272
+Icehouse,American-Style Ice Lager,4,136,0.3539069776327093
+Icehouse,American-Style Ice Lager,5,137,1.7846340242800034
+Icehouse,American-Style Ice Lager,6,85,2.1718173872673847
+Icehouse Edge,American-Style Ice Lager,1,85,0
+Icehouse Edge,American-Style Ice Lager,2,137,0.5350432807347594
+Icehouse Edge,American-Style Ice Lager,3,136,1.8396691583088394
+Icehouse Edge,American-Style Ice Lager,4,116,2.0221335188366045
+Icehouse Edge,American-Style Ice Lager,5,117,2.0221335188366045
+Icehouse Edge,American-Style Ice Lager,6,84,2.1718173872673847
+Jake's City Brew,American Pale Ale,1,86,0
+Jake's City Brew,American Pale Ale,2,109,0.0735074727134621
+Jake's City Brew,American Pale Ale,3,55,0.8354857697485786
+Jake's City Brew,American Pale Ale,4,124,1.2915119808887796
+Jake's City Brew,American Pale Ale,5,52,1.3002797393079861
+Jake's City Brew,American Pale Ale,6,127,1.320840896091509
+Keystone Ice,American-Style Ice Lager,1,87,0
+Keystone Ice,American-Style Ice Lager,2,90,0.11732567279766815
+Keystone Ice,American-Style Ice Lager,3,31,0.8930726893315859
+Keystone Ice,American-Style Ice Lager,4,89,1.213878631882878
+Keystone Ice,American-Style Ice Lager,5,121,1.3853125884110022
+Keystone Ice,American-Style Ice Lager,6,33,1.3855780252827514
+Keystone Light,American-Style Light Lager,1,88,0
+Keystone Light,American-Style Light Lager,2,33,0.13516653346649926
+Keystone Light,American-Style Light Lager,3,126,0.21550434158040882
+Keystone Light,American-Style Light Lager,4,121,0.27565502410634973
+Keystone Light,American-Style Light Lager,5,89,0.28642602583133
+Keystone Light,American-Style Light Lager,6,123,1.131064998335089
+Keystone Premium,American-Style Lager,1,89,0
+Keystone Premium,American-Style Lager,2,33,0.2069613712929191
+Keystone Premium,American-Style Lager,3,88,0.28642602583133
+Keystone Premium,American-Style Lager,4,121,0.3428819079095603
+Keystone Premium,American-Style Lager,5,126,0.4379853081095767
+Keystone Premium,American-Style Lager,6,87,1.213878631882878
+Keystone V9,American-Style Ice Lager,1,90,0
+Keystone V9,American-Style Ice Lager,2,87,0.11732567279766815
+Keystone V9,American-Style Ice Lager,3,31,0.8696452655753809
+Keystone V9,American-Style Ice Lager,4,89,1.2195354223798802
+Keystone V9,American-Style Ice Lager,5,121,1.3703266132998053
+Keystone V9,American-Style Ice Lager,6,33,1.380601734986967
+Lech,International Pale Lager,1,91,0
+Lech,International Pale Lager,2,218,0.267012427290844
+Lech,International Pale Lager,3,50,2.9425330012577113
+Lech,International Pale Lager,4,34,6.312093695583638
+Lech,International Pale Lager,5,71,7.039461729923305
+Lech,International Pale Lager,6,51,7.043063502028556
+Leinenkugel's Berry Shandy,Shandy,1,92,0
+Leinenkugel's Berry Shandy,Shandy,2,93,1.6473337542481925
+Leinenkugel's Berry Shandy,Shandy,3,106,10.560702021532293
+Leinenkugel's Berry Shandy,Shandy,4,99,10.588778083618152
+Leinenkugel's Berry Shandy,Shandy,5,96,10.592945321128155
+Leinenkugel's Berry Shandy,Shandy,6,114,11.244695090198693
+Leinenkugel's Berry Weiss,Fruit Wheat,1,93,0
+Leinenkugel's Berry Weiss,Fruit Wheat,2,92,1.6473337542481925
+Leinenkugel's Berry Weiss,Fruit Wheat,3,106,10.690048860068638
+Leinenkugel's Berry Weiss,Fruit Wheat,4,96,10.72460110790749
+Leinenkugel's Berry Weiss,Fruit Wheat,5,99,10.812832590867899
+Leinenkugel's Berry Weiss,Fruit Wheat,6,114,11.426970594051847
+Leinenkugel's Canoe Paddle Kölsch,Kölsch Style,1,94,0
+Leinenkugel's Canoe Paddle Kölsch,Kölsch Style,2,55,14.904710844039185
+Leinenkugel's Canoe Paddle Kölsch,Kölsch Style,3,86,14.911533315151564
+Leinenkugel's Canoe Paddle Kölsch,Kölsch Style,4,109,14.911856224389377
+Leinenkugel's Canoe Paddle Kölsch,Kölsch Style,5,52,14.921620611843895
+Leinenkugel's Canoe Paddle Kölsch,Kölsch Style,6,124,14.922915291705797
+Leinenkugel's Cherry Blonde Lager,Fruit Blonde Lager,1,95,0
+Leinenkugel's Cherry Blonde Lager,Fruit Blonde Lager,2,55,18.916456374051098
+Leinenkugel's Cherry Blonde Lager,Fruit Blonde Lager,3,52,18.916634870510048
+Leinenkugel's Cherry Blonde Lager,Fruit Blonde Lager,4,124,18.91756567141478
+Leinenkugel's Cherry Blonde Lager,Fruit Blonde Lager,5,127,18.918402905630447
+Leinenkugel's Cherry Blonde Lager,Fruit Blonde Lager,6,182,18.921419521952046
+Leinenkugel's Cranberry Ginger Shandy,Shandy,1,96,0
+Leinenkugel's Cranberry Ginger Shandy,Shandy,2,106,0.9073789290506391
+Leinenkugel's Cranberry Ginger Shandy,Shandy,3,99,0.9970146283595519
+Leinenkugel's Cranberry Ginger Shandy,Shandy,4,114,3.9461292527367102
+Leinenkugel's Cranberry Ginger Shandy,Shandy,5,98,4.521320486816804
+Leinenkugel's Cranberry Ginger Shandy,Shandy,6,113,4.609304775825537
+Leinenkugel's Creamy Dark,American Dark Lager,1,97,0
+Leinenkugel's Creamy Dark,American Dark Lager,2,103,2.5368474429110965
+Leinenkugel's Creamy Dark,American Dark Lager,3,107,4.526122858447784
+Leinenkugel's Creamy Dark,American Dark Lager,4,102,4.541726181140714
+Leinenkugel's Creamy Dark,American Dark Lager,5,105,4.57159205769826
+Leinenkugel's Creamy Dark,American Dark Lager,6,169,6.800634992730944
+Leinenkugel's Grapefruit Shandy,Shandy,1,98,0
+Leinenkugel's Grapefruit Shandy,Shandy,2,113,0.5427844096625027
+Leinenkugel's Grapefruit Shandy,Shandy,3,104,3.8901765616229484
+Leinenkugel's Grapefruit Shandy,Shandy,4,99,4.428171351825739
+Leinenkugel's Grapefruit Shandy,Shandy,5,106,4.491282525954944
+Leinenkugel's Grapefruit Shandy,Shandy,6,96,4.521320486816804
+Leinenkugel's Harvest Patch Shandy,Shandy,1,99,0
+Leinenkugel's Harvest Patch Shandy,Shandy,2,106,0.8709776238918446
+Leinenkugel's Harvest Patch Shandy,Shandy,3,96,0.9970146283595519
+Leinenkugel's Harvest Patch Shandy,Shandy,4,114,3.8455728103629188
+Leinenkugel's Harvest Patch Shandy,Shandy,5,98,4.428171351825739
+Leinenkugel's Harvest Patch Shandy,Shandy,6,113,4.445611964595217
+Leinenkugel's Honey Weiss,American Wheat,1,100,0
+Leinenkugel's Honey Weiss,American Wheat,2,114,3.1698957265155383
+Leinenkugel's Honey Weiss,American Wheat,3,55,4.714479424139425
+Leinenkugel's Honey Weiss,American Wheat,4,124,4.752656392349897
+Leinenkugel's Honey Weiss,American Wheat,5,52,4.753191730320073
+Leinenkugel's Honey Weiss,American Wheat,6,127,4.757708220048104
+Leinenkugel's Light,American-Style Light Lager,1,101,0
+Leinenkugel's Light,American-Style Light Lager,2,200,2.5203964541250437
+Leinenkugel's Light,American-Style Light Lager,3,166,2.6562211347262608
+Leinenkugel's Light,American-Style Light Lager,4,163,2.6828967133642387
+Leinenkugel's Light,American-Style Light Lager,5,198,2.7412056411812884
+Leinenkugel's Light,American-Style Light Lager,6,76,3.028081259034987
+Leinenkugel's Northwoods Lager,American Lager,1,102,0
+Leinenkugel's Northwoods Lager,American Lager,2,107,0.28361100949175977
+Leinenkugel's Northwoods Lager,American Lager,3,105,0.6529208757938001
+Leinenkugel's Northwoods Lager,American Lager,4,103,3.788672753673909
+Leinenkugel's Northwoods Lager,American Lager,5,97,4.541726181140714
+Leinenkugel's Northwoods Lager,American Lager,6,109,6.167245570654062
+Leinenkugel's Oktoberfest,Oktoberfest Lager,1,103,0
+Leinenkugel's Oktoberfest,Oktoberfest Lager,2,97,2.5368474429110965
+Leinenkugel's Oktoberfest,Oktoberfest Lager,3,107,3.7605690250499357
+Leinenkugel's Oktoberfest,Oktoberfest Lager,4,102,3.788672753673909
+Leinenkugel's Oktoberfest,Oktoberfest Lager,5,105,3.8117125482853984
+Leinenkugel's Oktoberfest,Oktoberfest Lager,6,81,7.115816121319199
+Leinenkugel's Orange Shandy,Shandy,1,104,0
+Leinenkugel's Orange Shandy,Shandy,2,113,3.861286838807577
+Leinenkugel's Orange Shandy,Shandy,3,98,3.8901765616229484
+Leinenkugel's Orange Shandy,Shandy,4,99,5.8827750044889076
+Leinenkugel's Orange Shandy,Shandy,5,106,5.992038125110248
+Leinenkugel's Orange Shandy,Shandy,6,96,6.004685319891401
+Leinenkugel's Original,American Lager,1,105,0
+Leinenkugel's Original,American Lager,2,107,0.6096339719251039
+Leinenkugel's Original,American Lager,3,102,0.6529208757938001
+Leinenkugel's Original,American Lager,4,103,3.8117125482853984
+Leinenkugel's Original,American Lager,5,97,4.57159205769826
+Leinenkugel's Original,American Lager,6,55,6.166654341253556
+Leinenkugel's Pomegranate Shandy,Shandy,1,106,0
+Leinenkugel's Pomegranate Shandy,Shandy,2,99,0.8709776238918446
+Leinenkugel's Pomegranate Shandy,Shandy,3,96,0.9073789290506391
+Leinenkugel's Pomegranate Shandy,Shandy,4,114,3.8639624987490375
+Leinenkugel's Pomegranate Shandy,Shandy,5,98,4.491282525954944
+Leinenkugel's Pomegranate Shandy,Shandy,6,113,4.57799979868617
+Leinenkugel's Red Lager,Vienna-Style Amber Lager,1,107,0
+Leinenkugel's Red Lager,Vienna-Style Amber Lager,2,102,0.28361100949175977
+Leinenkugel's Red Lager,Vienna-Style Amber Lager,3,105,0.6096339719251039
+Leinenkugel's Red Lager,Vienna-Style Amber Lager,4,103,3.7605690250499357
+Leinenkugel's Red Lager,Vienna-Style Amber Lager,5,97,4.526122858447784
+Leinenkugel's Red Lager,Vienna-Style Amber Lager,6,109,6.1768398219385725
+Leinenkugel'sSnowdrift Vanilla Porter,Porter,1,108,0
+Leinenkugel'sSnowdrift Vanilla Porter,Porter,2,115,15.63395111746711
+Leinenkugel'sSnowdrift Vanilla Porter,Porter,3,109,17.273171331170822
+Leinenkugel'sSnowdrift Vanilla Porter,Porter,4,86,17.275898652702534
+Leinenkugel'sSnowdrift Vanilla Porter,Porter,5,55,17.344409317641674
+Leinenkugel'sSnowdrift Vanilla Porter,Porter,6,52,17.393364466140095
+Leinenkugel's Special Ale,American Pale Ale,1,109,0
+Leinenkugel's Special Ale,American Pale Ale,2,86,0.0735074727134621
+Leinenkugel's Special Ale,American Pale Ale,3,55,0.8483087870595236
+Leinenkugel's Special Ale,American Pale Ale,4,52,1.307602014030608
+Leinenkugel's Special Ale,American Pale Ale,5,124,1.3113892938945053
+Leinenkugel's Special Ale,American Pale Ale,6,127,1.343037919067294
+Leine Spritzen Grapefruit,Beer with a splash of seltzer,1,110,0
+Leine Spritzen Grapefruit,Beer with a splash of seltzer,2,110,0
+Leine Spritzen Grapefruit,Beer with a splash of seltzer,3,112,0
+Leine Spritzen Grapefruit,Beer with a splash of seltzer,4,126,3.163811714087795
+Leine Spritzen Grapefruit,Beer with a splash of seltzer,5,88,3.1809997078039145
+Leine Spritzen Grapefruit,Beer with a splash of seltzer,6,33,3.191180122632592
+Leine Spritzen Raspberry Lemon,Beer with a splash of seltzer,1,111,0
+Leine Spritzen Raspberry Lemon,Beer with a splash of seltzer,2,110,0
+Leine Spritzen Raspberry Lemon,Beer with a splash of seltzer,3,112,0
+Leine Spritzen Raspberry Lemon,Beer with a splash of seltzer,4,126,3.163811714087795
+Leine Spritzen Raspberry Lemon,Beer with a splash of seltzer,5,88,3.1809997078039145
+Leine Spritzen Raspberry Lemon,Beer with a splash of seltzer,6,33,3.191180122632592
+Leine Spritzen Pineapple Strawberry,Beer with a splash of seltzer,1,112,0
+Leine Spritzen Pineapple Strawberry,Beer with a splash of seltzer,2,110,0
+Leine Spritzen Pineapple Strawberry,Beer with a splash of seltzer,3,112,0
+Leine Spritzen Pineapple Strawberry,Beer with a splash of seltzer,4,126,3.163811714087795
+Leine Spritzen Pineapple Strawberry,Beer with a splash of seltzer,5,88,3.1809997078039145
+Leine Spritzen Pineapple Strawberry,Beer with a splash of seltzer,6,33,3.191180122632592
+Leinenkugel's Summer Shandy,Shandy,1,113,0
+Leinenkugel's Summer Shandy,Shandy,2,98,0.5427844096625027
+Leinenkugel's Summer Shandy,Shandy,3,104,3.861286838807577
+Leinenkugel's Summer Shandy,Shandy,4,99,4.445611964595217
+Leinenkugel's Summer Shandy,Shandy,5,106,4.57799979868617
+Leinenkugel's Summer Shandy,Shandy,6,96,4.609304775825537
+Leinenkugel's Sunset Wheat,Spice Wheat,1,114,0
+Leinenkugel's Sunset Wheat,Spice Wheat,2,100,3.1698957265155383
+Leinenkugel's Sunset Wheat,Spice Wheat,3,99,3.8455728103629188
+Leinenkugel's Sunset Wheat,Spice Wheat,4,106,3.8639624987490375
+Leinenkugel's Sunset Wheat,Spice Wheat,5,96,3.9461292527367102
+Leinenkugel's Sunset Wheat,Spice Wheat,6,109,5.660415565458206
+Leinenkugel's Wisconsin Red Pale Ale,Red Pale Ale,1,115,0
+Leinenkugel's Wisconsin Red Pale Ale,Red Pale Ale,2,81,8.791300313366067
+Leinenkugel's Wisconsin Red Pale Ale,Red Pale Ale,3,169,9.028890387287449
+Leinenkugel's Wisconsin Red Pale Ale,Red Pale Ale,4,158,9.115870422567165
+Leinenkugel's Wisconsin Red Pale Ale,Red Pale Ale,5,202,9.425477203167883
+Leinenkugel's Wisconsin Red Pale Ale,Red Pale Ale,6,72,9.434908334065957
+Magnum,American-Style Malt Liquor,1,116,0
+Magnum,American-Style Malt Liquor,2,117,0
+Magnum,American-Style Malt Liquor,3,84,0.19248471240321272
+Magnum,American-Style Malt Liquor,4,136,0.23894490098731083
+Magnum,American-Style Malt Liquor,5,137,1.63539991324047
+Magnum,American-Style Malt Liquor,6,85,2.0221335188366045
+Mickey's,American-Style Malt Liquor,1,117,0
+Mickey's,American-Style Malt Liquor,2,117,0
+Mickey's,American-Style Malt Liquor,3,84,0.19248471240321272
+Mickey's,American-Style Malt Liquor,4,136,0.23894490098731083
+Mickey's,American-Style Malt Liquor,5,137,1.63539991324047
+Mickey's,American-Style Malt Liquor,6,85,2.0221335188366045
+Mickey's Ice,American-Style Ice Lager,1,118,0
+Mickey's Ice,American-Style Ice Lager,2,189,0.289936313672147
+Mickey's Ice,American-Style Ice Lager,3,138,1.9381849600814711
+Mickey's Ice,American-Style Ice Lager,4,188,2.0146992746418233
+Mickey's Ice,American-Style Ice Lager,5,141,3.0342366275596437
+Mickey's Ice,American-Style Ice Lager,6,31,9.041444652376777
+Miller Genuine Draft,American-Style Lager,1,119,0
+Miller Genuine Draft,American-Style Lager,2,120,2.0244264012797326
+Miller Genuine Draft,American-Style Lager,3,129,2.034785446858193
+Miller Genuine Draft,American-Style Lager,4,47,2.0404324815928754
+Miller Genuine Draft,American-Style Lager,5,135,2.0404806114537304
+Miller Genuine Draft,American-Style Lager,6,52,2.1514758645926872
+Miller High Life,American-Style Lager,1,120,0
+Miller High Life,American-Style Lager,2,129,0.3083755239553428
+Miller High Life,American-Style Lager,3,47,0.33622872351015204
+Miller High Life,American-Style Lager,4,135,0.34395461146410833
+Miller High Life,American-Style Lager,5,130,0.9103917441340288
+Miller High Life,American-Style Lager,6,119,2.0244264012797326
+Miller High Life Light,American-Style Light Lager,1,121,0
+Miller High Life Light,American-Style Light Lager,2,33,0.22507772993463435
+Miller High Life Light,American-Style Light Lager,3,88,0.27565502410634973
+Miller High Life Light,American-Style Light Lager,4,89,0.3428819079095603
+Miller High Life Light,American-Style Light Lager,5,126,0.4192162265748143
+Miller High Life Light,American-Style Light Lager,6,31,1.1850830112290331
+Miller Lite,American-Style Light Lager,1,122,0
+Miller Lite,American-Style Light Lager,2,126,21.342238354455773
+Miller Lite,American-Style Light Lager,3,88,21.34360990313141
+Miller Lite,American-Style Light Lager,4,33,21.344274063650026
+Miller Lite,American-Style Light Lager,5,89,21.346493656468393
+Miller Lite,American-Style Light Lager,6,121,21.346993074369752
+Miller64,American-Style Light Lager,1,123,0
+Miller64,American-Style Light Lager,2,126,1.039266571459315
+Miller64,American-Style Light Lager,3,88,1.131064998335089
+Miller64,American-Style Light Lager,4,33,1.20644564041771
+Miller64,American-Style Light Lager,5,121,1.2626069182050637
+Miller64,American-Style Light Lager,6,89,1.3843990763500613
+Milwaukee's Best,American-Style Lager,1,124,0
+Milwaukee's Best,American-Style Lager,2,127,0.2035127328188205
+Milwaukee's Best,American-Style Lager,3,52,0.2392113677820113
+Milwaukee's Best,American-Style Lager,4,182,0.39160308474580585
+Milwaukee's Best,American-Style Lager,5,55,0.5336740646935902
+Milwaukee's Best,American-Style Lager,6,86,1.2915119808887796
+Milwaukee's Best Ice,American-Style Ice Lager,1,125,0
+Milwaukee's Best Ice,American-Style Ice Lager,2,90,2.028922371184531
+Milwaukee's Best Ice,American-Style Ice Lager,3,87,2.0390737918931077
+Milwaukee's Best Ice,American-Style Ice Lager,4,31,2.176696175709718
+Milwaukee's Best Ice,American-Style Ice Lager,5,89,2.3981762847515204
+Milwaukee's Best Ice,American-Style Ice Lager,6,121,2.4618098219106836
+Milwaukee's Best Light,American-Style Light Lager,1,126,0
+Milwaukee's Best Light,American-Style Light Lager,2,88,0.21550434158040882
+Milwaukee's Best Light,American-Style Light Lager,3,33,0.2832023227086866
+Milwaukee's Best Light,American-Style Light Lager,4,121,0.4192162265748143
+Milwaukee's Best Light,American-Style Light Lager,5,89,0.4379853081095767
+Milwaukee's Best Light,American-Style Light Lager,6,123,1.039266571459315
+Molson Canadian,North American-Style Lager,1,127,0
+Molson Canadian,North American-Style Lager,2,124,0.2035127328188205
+Molson Canadian,North American-Style Lager,3,52,0.36835258425727196
+Molson Canadian,North American-Style Lager,4,182,0.5021250603968385
+Molson Canadian,North American-Style Lager,5,55,0.6310264079978852
+Molson Canadian,North American-Style Lager,6,86,1.320840896091509
+Molson Canadian 67,North American-Style Light Lager,1,128,0
+Molson Canadian 67,North American-Style Light Lager,2,45,8.47169307650024
+Molson Canadian 67,North American-Style Light Lager,3,206,8.69442578281741
+Molson Canadian 67,North American-Style Light Lager,4,70,8.833981112701476
+Molson Canadian 67,North American-Style Light Lager,5,46,9.22184783315564
+Molson Canadian 67,North American-Style Light Lager,6,123,9.401895732351104
+Molson Golden,North American-Style Lager,1,129,0
+Molson Golden,North American-Style Lager,2,135,0.15234602381648676
+Molson Golden,North American-Style Lager,3,47,0.15830680707306433
+Molson Golden,North American-Style Lager,4,120,0.3083755239553428
+Molson Golden,North American-Style Lager,5,130,0.6403253434132877
+Molson Golden,North American-Style Lager,6,119,2.034785446858193
+Molson Ice,North American-Style Lager,1,130,0
+Molson Ice,North American-Style Lager,2,135,0.5834283267885304
+Molson Ice,North American-Style Lager,3,47,0.6093047580819672
+Molson Ice,North American-Style Lager,4,129,0.6403253434132877
+Molson Ice,North American-Style Lager,5,120,0.9103917441340288
+Molson Ice,North American-Style Lager,6,131,1.4294328426670717
+Molson XXX,North American-Style Specialty Lager,1,131,0
+Molson XXX,North American-Style Specialty Lager,2,130,1.4294328426670717
+Molson XXX,North American-Style Specialty Lager,3,135,2.006241892803672
+Molson XXX,North American-Style Specialty Lager,4,47,2.027368122609386
+Molson XXX,North American-Style Specialty Lager,5,129,2.046331280425854
+Molson XXX,North American-Style Specialty Lager,6,120,2.334635343900059
+MOVO BloodOrange Sangria,Wine Spritzer,1,132,0
+MOVO BloodOrange Sangria,Wine Spritzer,2,214,23.490821947118835
+MOVO BloodOrange Sangria,Wine Spritzer,3,211,23.497339531464146
+MOVO BloodOrange Sangria,Wine Spritzer,4,178,23.501504085682676
+MOVO BloodOrange Sangria,Wine Spritzer,5,51,23.504957442778668
+MOVO BloodOrange Sangria,Wine Spritzer,6,71,23.510528430067076
+MOVO Peach White,Wine Spritzer,1,133,0
+MOVO Peach White,Wine Spritzer,2,211,23.588444939879476
+MOVO Peach White,Wine Spritzer,3,214,23.590082258146925
+MOVO Peach White,Wine Spritzer,4,178,23.592949677099096
+MOVO Peach White,Wine Spritzer,5,170,23.597241603212694
+MOVO Peach White,Wine Spritzer,6,18,23.601492458862673
+MOVO Raspberry Rose,Wine Spritzer,1,134,0
+MOVO Raspberry Rose,Wine Spritzer,2,211,28.072300936579417
+MOVO Raspberry Rose,Wine Spritzer,3,214,28.075113833921737
+MOVO Raspberry Rose,Wine Spritzer,4,178,28.07578688311922
+MOVO Raspberry Rose,Wine Spritzer,5,170,28.078495584071675
+MOVO Raspberry Rose,Wine Spritzer,6,18,28.080967999613573
+Old Vienna,North American-Style Lager,1,135,0
+Old Vienna,North American-Style Lager,2,47,0.043031781196864925
+Old Vienna,North American-Style Lager,3,129,0.15234602381648676
+Old Vienna,North American-Style Lager,4,120,0.34395461146410833
+Old Vienna,North American-Style Lager,5,130,0.5834283267885304
+Old Vienna,North American-Style Lager,6,131,2.006241892803672
+Olde English 800,American-Style Malt Liquor,1,136,0
+Olde English 800,American-Style Malt Liquor,2,116,0.23894490098731083
+Olde English 800,American-Style Malt Liquor,3,117,0.23894490098731083
+Olde English 800,American-Style Malt Liquor,4,84,0.3539069776327093
+Olde English 800,American-Style Malt Liquor,5,137,1.4817975275038184
+Olde English 800,American-Style Malt Liquor,6,85,1.8396691583088394
+Olde English 800 7.5%,American-Style Malt Liquor,1,137,0
+Olde English 800 7.5%,American-Style Malt Liquor,2,85,0.5350432807347594
+Olde English 800 7.5%,American-Style Malt Liquor,3,136,1.4817975275038184
+Olde English 800 7.5%,American-Style Malt Liquor,4,116,1.63539991324047
+Olde English 800 7.5%,American-Style Malt Liquor,5,117,1.63539991324047
+Olde English 800 7.5%,American-Style Malt Liquor,6,84,1.7846340242800034
+Olde English High Gravity 800,American-Style Malt Liquor,1,138,0
+Olde English High Gravity 800,American-Style Malt Liquor,2,188,0.14191455284596713
+Olde English High Gravity 800,American-Style Malt Liquor,3,189,1.837080127968757
+Olde English High Gravity 800,American-Style Malt Liquor,4,118,1.9381849600814711
+Olde English High Gravity 800,American-Style Malt Liquor,5,141,3.91994375056612
+Olde English High Gravity 800,American-Style Malt Liquor,6,195,9.0199131757143
+Peroni Nastro Azzurro,International Pale Lager,1,139,0
+Peroni Nastro Azzurro,International Pale Lager,2,214,15.055643915158356
+Peroni Nastro Azzurro,International Pale Lager,3,211,15.056792017914196
+Peroni Nastro Azzurro,International Pale Lager,4,178,15.057581880800084
+Peroni Nastro Azzurro,International Pale Lager,5,67,15.065682455408282
+Peroni Nastro Azzurro,International Pale Lager,6,71,15.066762645531378
+Pilsner Urquell,Bohemian Pilsner,1,140,0
+Pilsner Urquell,Bohemian Pilsner,2,26,15.054409521283452
+Pilsner Urquell,Bohemian Pilsner,3,3,15.059366989111542
+Pilsner Urquell,Bohemian Pilsner,4,67,15.0623704875901
+Pilsner Urquell,Bohemian Pilsner,5,211,15.06655993300592
+Pilsner Urquell,Bohemian Pilsner,6,178,15.067870865629303
+Red Dog,American-Style Lager,1,141,0
+Red Dog,American-Style Lager,2,118,3.0342366275596437
+Red Dog,American-Style Lager,3,189,3.081837381054933
+Red Dog,American-Style Lager,4,138,3.91994375056612
+Red Dog,American-Style Lager,5,188,3.965641342943314
+Red Dog,American-Style Lager,6,211,8.70906314119441
+Redd's HardApple,Apple Ale,1,142,0
+Redd's HardApple,Apple Ale,2,145,0.35341056587510633
+Redd's HardApple,Apple Ale,3,144,3.284436218117486
+Redd's HardApple,Apple Ale,4,146,4.441336133119892
+Redd's HardApple,Apple Ale,5,149,4.890753446881947
+Redd's HardApple,Apple Ale,6,154,6.591999152765257
+Redd's Hard AppleBlack Cherry,Apple Ale,1,143,0
+Redd's Hard AppleBlack Cherry,Apple Ale,2,146,18.417188801209875
+Redd's Hard AppleBlack Cherry,Apple Ale,3,145,18.9431843930502
+Redd's Hard AppleBlack Cherry,Apple Ale,4,142,18.944247667379077
+Redd's Hard AppleBlack Cherry,Apple Ale,5,154,19.03652694411584
+Redd's Hard AppleBlack Cherry,Apple Ale,6,153,19.041070651011626
+Redd's Blueberry Ale,Apple Ale,1,144,0
+Redd's Blueberry Ale,Apple Ale,2,145,3.2779893416230452
+Redd's Blueberry Ale,Apple Ale,3,142,3.284436218117486
+Redd's Blueberry Ale,Apple Ale,4,149,3.516170750011883
+Redd's Blueberry Ale,Apple Ale,5,146,5.511098342878383
+Redd's Blueberry Ale,Apple Ale,6,154,5.645769383226679
+Redd's Cranberry Ale,Apple Ale,1,145,0
+Redd's Cranberry Ale,Apple Ale,2,142,0.35341056587510633
+Redd's Cranberry Ale,Apple Ale,3,144,3.2779893416230452
+Redd's Cranberry Ale,Apple Ale,4,146,4.427481228924056
+Redd's Cranberry Ale,Apple Ale,5,149,4.767546724037405
+Redd's Cranberry Ale,Apple Ale,6,154,6.501165875427893
+Redd's Hard Apple Peach,Apple Ale,1,146,0
+Redd's Hard Apple Peach,Apple Ale,2,145,4.427481228924056
+Redd's Hard Apple Peach,Apple Ale,3,142,4.441336133119892
+Redd's Hard Apple Peach,Apple Ale,4,154,4.779631395879721
+Redd's Hard Apple Peach,Apple Ale,5,153,4.815139188550415
+Redd's Hard Apple Peach,Apple Ale,6,144,5.511098342878383
+Redd's Pineapple,Apple Ale,1,147,0
+Redd's Pineapple,Apple Ale,2,146,15.580264886210013
+Redd's Pineapple,Apple Ale,3,154,15.609019415526554
+Redd's Pineapple,Apple Ale,4,153,15.62531694045983
+Redd's Pineapple,Apple Ale,5,144,15.862101597730767
+Redd's Pineapple,Apple Ale,6,145,16.195567911207608
+Redd's Hard Apple Strawberry,Apple Ale,1,148,0
+Redd's Hard Apple Strawberry,Apple Ale,2,146,18.418309892058573
+Redd's Hard Apple Strawberry,Apple Ale,3,142,18.940581316001747
+Redd's Hard Apple Strawberry,Apple Ale,4,145,18.941698121740885
+Redd's Hard Apple Strawberry,Apple Ale,5,154,19.04300101814452
+Redd's Hard Apple Strawberry,Apple Ale,6,153,19.058511076800812
+Redd's Wicked Apple,Apple Ale,1,149,0
+Redd's Wicked Apple,Apple Ale,2,144,3.516170750011883
+Redd's Wicked Apple,Apple Ale,3,154,4.4273860156303355
+Redd's Wicked Apple,Apple Ale,4,153,4.439983579231406
+Redd's Wicked Apple,Apple Ale,5,145,4.767546724037405
+Redd's Wicked Apple,Apple Ale,6,142,4.890753446881947
+Redd's Wicked Black Cherry,Apple Ale,1,150,0
+Redd's Wicked Black Cherry,Apple Ale,2,154,15.230761622936056
+Redd's Wicked Black Cherry,Apple Ale,3,153,15.238512495632191
+Redd's Wicked Black Cherry,Apple Ale,4,149,15.861216307620921
+Redd's Wicked Black Cherry,Apple Ale,5,146,15.949992401051526
+Redd's Wicked Black Cherry,Apple Ale,6,144,16.22978473689099
+Redd's Wicked Lemonade,Apple Ale,1,151,0
+Redd's Wicked Lemonade,Apple Ale,2,154,11.709480428229137
+Redd's Wicked Lemonade,Apple Ale,3,153,11.717211020969462
+Redd's Wicked Lemonade,Apple Ale,4,149,12.51854684224648
+Redd's Wicked Lemonade,Apple Ale,5,146,12.65479212282318
+Redd's Wicked Lemonade,Apple Ale,6,192,12.888742109875277
+Redd's Wicked Sour Apple,Apple Ale,1,152,0
+Redd's Wicked Sour Apple,Apple Ale,2,149,8.644339226567489
+Redd's Wicked Sour Apple,Apple Ale,3,144,9.326867333289442
+Redd's Wicked Sour Apple,Apple Ale,4,154,9.70966250794316
+Redd's Wicked Sour Apple,Apple Ale,5,153,9.725454209416862
+Redd's Wicked Sour Apple,Apple Ale,6,145,9.869412386390477
+Redd's Wicked Strawberry Kiwi,Apple Ale,1,153,0
+Redd's Wicked Strawberry Kiwi,Apple Ale,2,154,0.45750454301163934
+Redd's Wicked Strawberry Kiwi,Apple Ale,3,149,4.439983579231406
+Redd's Wicked Strawberry Kiwi,Apple Ale,4,146,4.815139188550415
+Redd's Wicked Strawberry Kiwi,Apple Ale,5,144,5.695508366959486
+Redd's Wicked Strawberry Kiwi,Apple Ale,6,145,6.534839522737204
+Redd's Wicked Watermelon,Apple Ale,1,154,0
+Redd's Wicked Watermelon,Apple Ale,2,153,0.45750454301163934
+Redd's Wicked Watermelon,Apple Ale,3,149,4.4273860156303355
+Redd's Wicked Watermelon,Apple Ale,4,146,4.779631395879721
+Redd's Wicked Watermelon,Apple Ale,5,144,5.645769383226679
+Redd's Wicked Watermelon,Apple Ale,6,145,6.501165875427893
+Revolver Backyard Bee Honey Kolsch,Kolsch,1,155,0
+Revolver Backyard Bee Honey Kolsch,Kolsch,2,45,4.351777480980854
+Revolver Backyard Bee Honey Kolsch,Kolsch,3,46,4.626747969296961
+Revolver Backyard Bee Honey Kolsch,Kolsch,4,70,4.728499795650255
+Revolver Backyard Bee Honey Kolsch,Kolsch,5,100,6.625925512723195
+Revolver Backyard Bee Honey Kolsch,Kolsch,6,159,6.668939684181309
+Revolver Blood & Honey Ale,American Ale,1,156,0
+Revolver Blood & Honey Ale,American Ale,2,100,13.52962801339185
+Revolver Blood & Honey Ale,American Ale,3,164,13.585607660624468
+Revolver Blood & Honey Ale,American Ale,4,208,13.688614242742206
+Revolver Blood & Honey Ale,American Ale,5,197,13.694373307638681
+Revolver Blood & Honey Ale,American Ale,6,173,13.731980359972013
+Revolver Full Tang,West Coast IPA,1,157,0
+Revolver Full Tang,West Coast IPA,2,46,21.190568546838353
+Revolver Full Tang,West Coast IPA,3,70,21.224175872250683
+Revolver Full Tang,West Coast IPA,4,45,21.225072238496637
+Revolver Full Tang,West Coast IPA,5,155,21.55135701666751
+Revolver Full Tang,West Coast IPA,6,79,21.65491570213774
+Revolver Hop Device IPA,Hazy IPA,1,158,0
+Revolver Hop Device IPA,Hazy IPA,2,169,1.7428509293669858
+Revolver Hop Device IPA,Hazy IPA,3,81,3.0358471086069745
+Revolver Hop Device IPA,Hazy IPA,4,164,4.049031385318096
+Revolver Hop Device IPA,Hazy IPA,5,197,4.088493156070045
+Revolver Hop Device IPA,Hazy IPA,6,208,4.113094740834575
+Revolver Long Range Pils,German Style Pilsner,1,159,0
+Revolver Long Range Pils,German Style Pilsner,2,170,0.9023962469557453
+Revolver Long Range Pils,German Style Pilsner,3,178,1.0139321415025262
+Revolver Long Range Pils,German Style Pilsner,4,67,1.0226354163009734
+Revolver Long Range Pils,German Style Pilsner,5,174,1.0901943183062786
+Revolver Long Range Pils,German Style Pilsner,6,24,1.1045721341248533
+Revolver Mi Cheve,Mexican Lager,1,160,0
+Revolver Mi Cheve,Mexican Lager,2,159,14.90731740337391
+Revolver Mi Cheve,Mexican Lager,3,170,14.926281607353555
+Revolver Mi Cheve,Mexican Lager,4,178,14.94035896406019
+Revolver Mi Cheve,Mexican Lager,5,18,14.941238044881313
+Revolver Mi Cheve,Mexican Lager,6,174,14.948236718280853
+Revolver Sidewinder Ale,Southwest Pale Ale,1,161,0
+Revolver Sidewinder Ale,Southwest Pale Ale,2,159,27.95350526707033
+Revolver Sidewinder Ale,Southwest Pale Ale,3,174,27.979923880477187
+Revolver Sidewinder Ale,Southwest Pale Ale,4,20,27.982048373775495
+Revolver Sidewinder Ale,Southwest Pale Ale,5,202,27.98276987746057
+Revolver Sidewinder Ale,Southwest Pale Ale,6,170,27.982800222854383
+Saint Archer Blackberry Gose,German-Style Gose,1,162,0
+Saint Archer Blackberry Gose,German-Style Gose,2,168,20.613337606459577
+Saint Archer Blackberry Gose,German-Style Gose,3,176,23.139055740815895
+Saint Archer Blackberry Gose,German-Style Gose,4,163,23.659562922363687
+Saint Archer Blackberry Gose,German-Style Gose,5,166,23.661669729356106
+Saint Archer Blackberry Gose,German-Style Gose,6,198,23.67290895998199
+Saint Archer Blonde Ale,German-Style Kolsch Ale,1,163,0
+Saint Archer Blonde Ale,German-Style Kolsch Ale,2,198,0.22677406944832337
+Saint Archer Blonde Ale,German-Style Kolsch Ale,3,200,0.5613748359580949
+Saint Archer Blonde Ale,German-Style Kolsch Ale,4,166,0.648353553941129
+Saint Archer Blonde Ale,German-Style Kolsch Ale,5,76,0.8630348817796232
+Saint Archer Blonde Ale,German-Style Kolsch Ale,6,197,1.7752985023153378
+Saint Archer Citra 7 IPA,American-Style IPA,1,164,0
+Saint Archer Citra 7 IPA,American-Style IPA,2,197,1.293098860016134
+Saint Archer Citra 7 IPA,American-Style IPA,3,208,1.3171379746070855
+Saint Archer Citra 7 IPA,American-Style IPA,4,76,1.684413997593438
+Saint Archer Citra 7 IPA,American-Style IPA,5,173,1.788084848012399
+Saint Archer Citra 7 IPA,American-Style IPA,6,198,2.1710687755552627
+Saint Archer Double IPA,American-Style Imperial IPA,1,165,0
+Saint Archer Double IPA,American-Style Imperial IPA,2,204,0.8880129119173045
+Saint Archer Double IPA,American-Style Imperial IPA,3,171,1.3080298856886392
+Saint Archer Double IPA,American-Style Imperial IPA,4,30,1.3462637320826703
+Saint Archer Double IPA,American-Style Imperial IPA,5,213,1.4417027059223049
+Saint Archer Double IPA,American-Style Imperial IPA,6,69,1.553522653880809
+Saint Archer English Brown Ale Nitro,English-Style Mild Ale,1,166,0
+Saint Archer English Brown Ale Nitro,English-Style Mild Ale,2,163,0.648353553941129
+Saint Archer English Brown Ale Nitro,English-Style Mild Ale,3,198,0.7884923253914836
+Saint Archer English Brown Ale Nitro,English-Style Mild Ale,4,200,0.8633614434645716
+Saint Archer English Brown Ale Nitro,English-Style Mild Ale,5,76,1.4830862587951017
+Saint Archer English Brown Ale Nitro,English-Style Mild Ale,6,197,2.243866931208554
+Saint Archer Gold,Light Lager,1,167,0
+Saint Archer Gold,Light Lager,2,214,15.003664437398985
+Saint Archer Gold,Light Lager,3,211,15.00638983928521
+Saint Archer Gold,Light Lager,4,51,15.012199414679477
+Saint Archer Gold,Light Lager,5,71,15.02627899168228
+Saint Archer Gold,Light Lager,6,178,15.02862447641673
+Saint Archer Gose,German-Style Gose,1,168,0
+Saint Archer Gose,German-Style Gose,2,163,11.655113168954381
+Saint Archer Gose,German-Style Gose,3,166,11.678469957960727
+Saint Archer Gose,German-Style Gose,4,198,11.683285100512501
+Saint Archer Gose,German-Style Gose,5,200,11.685505044968838
+Saint Archer Gose,German-Style Gose,6,76,11.71626983069285
+Saint Archer Hazy IPA,Hazy IPA,1,169,0
+Saint Archer Hazy IPA,Hazy IPA,2,158,1.7428509293669858
+Saint Archer Hazy IPA,Hazy IPA,3,81,3.2602780754156444
+Saint Archer Hazy IPA,Hazy IPA,4,76,3.8382226193042657
+Saint Archer Hazy IPA,Hazy IPA,5,197,3.8671094489494773
+Saint Archer Hazy IPA,Hazy IPA,6,198,3.8786044291579564
+Saint Archer Hoppy Pilsner,Czech-Style Pilsner,1,170,0
+Saint Archer Hoppy Pilsner,Czech-Style Pilsner,2,18,0.3403030286992035
+Saint Archer Hoppy Pilsner,Czech-Style Pilsner,3,178,0.3684219082201657
+Saint Archer Hoppy Pilsner,Czech-Style Pilsner,4,174,0.4538000042437321
+Saint Archer Hoppy Pilsner,Czech-Style Pilsner,5,211,0.6477232475225705
+Saint Archer Hoppy Pilsner,Czech-Style Pilsner,6,67,0.6836607484871841
+Saint Archer IPA,American-Style IPA,1,171,0
+Saint Archer IPA,American-Style IPA,2,213,0.39347599360751373
+Saint Archer IPA,American-Style IPA,3,30,0.4656122188604575
+Saint Archer IPA,American-Style IPA,4,69,0.5443878806673113
+Saint Archer IPA,American-Style IPA,5,204,0.5644577978769008
+Saint Archer IPA,American-Style IPA,6,73,0.6193131905858655
+Saint Archer Mexican Lager,Mexican Lager,1,172,0
+Saint Archer Mexican Lager,Mexican Lager,2,74,8.9920068793501855
+Saint Archer Mexican Lager,Mexican Lager,3,102,9.06568181054883
+Saint Archer Mexican Lager,Mexican Lager,4,107,9.075842366183405
+Saint Archer Mexican Lager,Mexican Lager,5,105,9.080345174188903
+Saint Archer Mexican Lager,Mexican Lager,6,103,9.838213218536964
+Saint Archer Mosaic IPA,American-Style Imperial IPA,1,173,0
+Saint Archer Mosaic IPA,American-Style Imperial IPA,2,164,1.788084848012399
+Saint Archer Mosaic IPA,American-Style Imperial IPA,3,208,2.040885814508975
+Saint Archer Mosaic IPA,American-Style Imperial IPA,4,197,2.210231690150978
+Saint Archer Mosaic IPA,American-Style Imperial IPA,5,165,2.754735297351899
+Saint Archer Mosaic IPA,American-Style Imperial IPA,6,68,2.783022021204741
+Saint Archer Pale Ale,American Pale Ale,1,174,0
+Saint Archer Pale Ale,American Pale Ale,2,18,0.36214435894749675
+Saint Archer Pale Ale,American Pale Ale,3,170,0.4538000042437321
+Saint Archer Pale Ale,American Pale Ale,4,178,0.4704098653858975
+Saint Archer Pale Ale,American Pale Ale,5,67,0.4934930329590643
+Saint Archer Pale Ale,American Pale Ale,6,214,0.6351326931904298
+Saint Archer Peach Gose,German-Style Gose,1,175,0
+Saint Archer Peach Gose,German-Style Gose,2,168,14.91365008213328
+Saint Archer Peach Gose,German-Style Gose,3,163,18.873554149794344
+Saint Archer Peach Gose,German-Style Gose,4,166,18.876455628093204
+Saint Archer Peach Gose,German-Style Gose,5,200,18.885076102143334
+Saint Archer Peach Gose,German-Style Gose,6,198,18.88920615904779
+Saint Archer Razzleberry Gose,German-Style Gose,1,176,0
+Saint Archer Razzleberry Gose,German-Style Gose,2,168,18.287479794651233
+Saint Archer Razzleberry Gose,German-Style Gose,3,166,21.632237194196833
+Saint Archer Razzleberry Gose,German-Style Gose,4,163,21.64094022146799
+Saint Archer Razzleberry Gose,German-Style Gose,5,198,21.65524736879976
+Saint Archer Razzleberry Gose,German-Style Gose,6,200,21.659168384732606
+Saint Archer Tropical IPA,IPA,1,177,0
+Saint Archer Tropical IPA,IPA,2,78,16.934174829656246
+Saint Archer Tropical IPA,IPA,3,18,18.29474598963157
+Saint Archer Tropical IPA,IPA,4,174,18.30031878056656
+Saint Archer Tropical IPA,IPA,5,202,18.30142292146359
+Saint Archer Tropical IPA,IPA,6,72,18.304535331123013
+Saint Archer White Ale,Belgian-Style Witbier,1,178,0
+Saint Archer White Ale,Belgian-Style Witbier,2,211,0.32118721530635586
+Saint Archer White Ale,Belgian-Style Witbier,3,170,0.3684219082201657
+Saint Archer White Ale,Belgian-Style Witbier,4,214,0.44618208454111175
+Saint Archer White Ale,Belgian-Style Witbier,5,174,0.4704098653858975
+Saint Archer White Ale,Belgian-Style Witbier,6,67,0.47941993996500026
+Sharp's,Non-Alcoholic Lager,1,179,0
+Sharp's,Non-Alcoholic Lager,2,141,15.279470228323532
+Sharp's,Non-Alcoholic Lager,3,118,15.712833908196455
+Sharp's,Non-Alcoholic Lager,4,189,15.749188877062878
+Sharp's,Non-Alcoholic Lager,5,138,16.271794792238484
+Sharp's,Non-Alcoholic Lager,6,188,16.29942547009379
+Hop ExtractSheaf Stout,Foreign Extra (Export) Stout,1,180,0
+Hop ExtractSheaf Stout,Foreign Extra (Export) Stout,2,159,15.119309998763477
+Hop ExtractSheaf Stout,Foreign Extra (Export) Stout,3,170,15.127721606452525
+Hop ExtractSheaf Stout,Foreign Extra (Export) Stout,4,18,15.128002729928111
+Hop ExtractSheaf Stout,Foreign Extra (Export) Stout,5,174,15.143049396990053
+Hop ExtractSheaf Stout,Foreign Extra (Export) Stout,6,178,15.166148034098534
+Smith & Forge Hard Cider,Hard Apple Cider,1,181,0
+Smith & Forge Hard Cider,Hard Apple Cider,2,39,18.02692068837002
+Smith & Forge Hard Cider,Hard Apple Cider,3,37,18.049807668117833
+Smith & Forge Hard Cider,Hard Apple Cider,4,18,18.467908009064743
+Smith & Forge Hard Cider,Hard Apple Cider,5,170,18.49824430586525
+Smith & Forge Hard Cider,Hard Apple Cider,6,174,18.526458852412627
+Sol,Mexican Lager,1,182,0
+Sol,Mexican Lager,2,52,0.1928265748851029
+Sol,Mexican Lager,3,124,0.39160308474580585
+Sol,Mexican Lager,4,127,0.5021250603968385
+Sol,Mexican Lager,5,55,0.5969007299099277
+Sol,Mexican Lager,6,86,1.4062884230704646
+Sol Chelada,Chelada,1,183,0
+Sol Chelada,Chelada,2,159,40.15772082227444
+Sol Chelada,Chelada,3,151,40.344377277103824
+Sol Chelada,Chelada,4,182,40.36228119528922
+Sol Chelada,Chelada,5,164,40.36248457337395
+Sol Chelada,Chelada,6,158,40.36967102783303
+Sparks,Flavored Malt Beverage,1,184,0
+Sparks,Flavored Malt Beverage,2,145,17.950773322191388
+Sparks,Flavored Malt Beverage,3,142,17.99344139150338
+Sparks,Flavored Malt Beverage,4,149,18.01799831292261
+Sparks,Flavored Malt Beverage,5,144,18.259595756259852
+Sparks,Flavored Malt Beverage,6,146,18.492656518480352
+Sparks Blackberry,Flavored Malt Beverage,1,185,0
+Sparks Blackberry,Flavored Malt Beverage,2,190,10.17200893080772
+Sparks Blackberry,Flavored Malt Beverage,3,192,11.006263454230098
+Sparks Blackberry,Flavored Malt Beverage,4,59,13.806587418398088
+Sparks Blackberry,Flavored Malt Beverage,5,58,14.12040391473784
+Sparks Blackberry,Flavored Malt Beverage,6,60,14.17602155527073
+Steel Reserve BLK Berry,Flavored Malt Beverage,1,186,0
+Steel Reserve BLK Berry,Flavored Malt Beverage,2,192,15.221558943159813
+Steel Reserve BLK Berry,Flavored Malt Beverage,3,59,17.358319937028348
+Steel Reserve BLK Berry,Flavored Malt Beverage,4,58,17.603302177261313
+Steel Reserve BLK Berry,Flavored Malt Beverage,5,60,17.65358326317543
+Steel Reserve BLK Berry,Flavored Malt Beverage,6,153,17.656680715120267
+Steel Reserve Hard Pineapple,Flavored Malt Beverage,1,187,0
+Steel Reserve Hard Pineapple,Flavored Malt Beverage,2,192,22.211140385825473
+Steel Reserve Hard Pineapple,Flavored Malt Beverage,3,153,22.23482295125779
+Steel Reserve Hard Pineapple,Flavored Malt Beverage,4,154,22.244338394725638
+Steel Reserve Hard Pineapple,Flavored Malt Beverage,5,149,22.248604635702236
+Steel Reserve Hard Pineapple,Flavored Malt Beverage,6,144,22.591977391253494
+Steel Reserve High Gravity,American-Style Specialty Lager,1,188,0
+Steel Reserve High Gravity,American-Style Specialty Lager,2,138,0.14191455284596713
+Steel Reserve High Gravity,American-Style Specialty Lager,3,189,1.9110905316660582
+Steel Reserve High Gravity,American-Style Specialty Lager,4,118,2.0146992746418233
+Steel Reserve High Gravity,American-Style Specialty Lager,5,141,3.965641342943314
+Steel Reserve High Gravity,American-Style Specialty Lager,6,195,9.018796702283236
+Steel Reserve High Gravity 6.0,American-Style Specialty Lager,1,189,0
+Steel Reserve High Gravity 6.0,American-Style Specialty Lager,2,118,0.289936313672147
+Steel Reserve High Gravity 6.0,American-Style Specialty Lager,3,138,1.837080127968757
+Steel Reserve High Gravity 6.0,American-Style Specialty Lager,4,188,1.9110905316660582
+Steel Reserve High Gravity 6.0,American-Style Specialty Lager,5,141,3.081837381054933
+Steel Reserve High Gravity 6.0,American-Style Specialty Lager,6,90,9.04197938359306
+Steel Reserve Spiked Blue Razz,Flavored Malt Beverage,1,190,0
+Steel Reserve Spiked Blue Razz,Flavored Malt Beverage,2,185,10.17200893080772
+Steel Reserve Spiked Blue Razz,Flavored Malt Beverage,3,192,14.986869455233032
+Steel Reserve Spiked Blue Razz,Flavored Malt Beverage,4,153,15.730193733623528
+Steel Reserve Spiked Blue Razz,Flavored Malt Beverage,5,154,15.732965547214736
+Steel Reserve Spiked Blue Razz,Flavored Malt Beverage,6,149,15.74206520911044
+Steel Reserve Spiked Punch,Flavored Malt Beverage,1,191,0
+Steel Reserve Spiked Punch,Flavored Malt Beverage,2,194,3.53993876355757
+Steel Reserve Spiked Punch,Flavored Malt Beverage,3,192,11.009092897162297
+Steel Reserve Spiked Punch,Flavored Malt Beverage,4,59,13.802048058866351
+Steel Reserve Spiked Punch,Flavored Malt Beverage,5,58,14.123659542424939
+Steel Reserve Spiked Punch,Flavored Malt Beverage,6,60,14.172646540000962
+Steel Reserve Spiked Strawberry Burst,Flavored Malt Beverage,1,192,0
+Steel Reserve Spiked Strawberry Burst,Flavored Malt Beverage,2,59,8.354095186899945
+Steel Reserve Spiked Strawberry Burst,Flavored Malt Beverage,3,154,8.9553458599762
+Steel Reserve Spiked Strawberry Burst,Flavored Malt Beverage,4,153,8.96064937388996
+Steel Reserve Spiked Strawberry Burst,Flavored Malt Beverage,5,146,9.198896209889671
+Steel Reserve Spiked Strawberry Burst,Flavored Malt Beverage,6,57,9.794876004109817
+Steel Reserve Spiked Tropic Storm,Flavored Malt Beverage,1,193,0
+Steel Reserve Spiked Tropic Storm,Flavored Malt Beverage,2,192,18.332365476282114
+Steel Reserve Spiked Tropic Storm,Flavored Malt Beverage,3,154,18.369548021051326
+Steel Reserve Spiked Tropic Storm,Flavored Malt Beverage,4,153,18.371329535273546
+Steel Reserve Spiked Tropic Storm,Flavored Malt Beverage,5,190,18.812764801828465
+Steel Reserve Spiked Tropic Storm,Flavored Malt Beverage,6,149,18.894634637861913
+Steel Reserve Spiked Watermelon,Flavored Malt Beverage,1,194,0
+Steel Reserve Spiked Watermelon,Flavored Malt Beverage,2,191,3.53993876355757
+Steel Reserve Spiked Watermelon,Flavored Malt Beverage,3,192,11.589517323627925
+Steel Reserve Spiked Watermelon,Flavored Malt Beverage,4,58,13.835147227887175
+Steel Reserve Spiked Watermelon,Flavored Malt Beverage,5,153,13.856035046414558
+Steel Reserve Spiked Watermelon,Flavored Malt Beverage,6,60,13.892450889508273
+Steel Reserve Triple Export 8.1%,American-StyleSpecialty Lager,1,195,0
+Steel Reserve Triple Export 8.1%,American-StyleSpecialty Lager,2,90,2.3913192426152796
+Steel Reserve Triple Export 8.1%,American-StyleSpecialty Lager,3,87,2.394195696596153
+Steel Reserve Triple Export 8.1%,American-StyleSpecialty Lager,4,31,2.593292820733897
+Steel Reserve Triple Export 8.1%,American-StyleSpecialty Lager,5,125,3.0821903567123843
+Steel Reserve Triple Export 8.1%,American-StyleSpecialty Lager,6,4,3.517042853883005
+Terrapin Beerista,Barrel-Aged Stout,1,196,0
+Terrapin Beerista,Barrel-Aged Stout,2,46,11.339543572212204
+Terrapin Beerista,Barrel-Aged Stout,3,79,11.655069518177678
+Terrapin Beerista,Barrel-Aged Stout,4,217,11.737788504177583
+Terrapin Beerista,Barrel-Aged Stout,5,70,11.916956528813317
+Terrapin Beerista,Barrel-Aged Stout,6,165,12.153306418405865
+Terrapin Beyond the Galaxy IPA,IPA,1,197,0
+Terrapin Beyond the Galaxy IPA,IPA,2,208,0.32338579900594255
+Terrapin Beyond the Galaxy IPA,IPA,3,76,1.1894387001145108
+Terrapin Beyond the Galaxy IPA,IPA,4,164,1.293098860016134
+Terrapin Beyond the Galaxy IPA,IPA,5,198,1.6217161310323531
+Terrapin Beyond the Galaxy IPA,IPA,6,163,1.7752985023153378
+Terrapin Chopsecutioner,IPA,1,198,0
+Terrapin Chopsecutioner,IPA,2,163,0.22677406944832337
+Terrapin Chopsecutioner,IPA,3,200,0.6365589660553882
+Terrapin Chopsecutioner,IPA,4,76,0.7260007172105611
+Terrapin Chopsecutioner,IPA,5,166,0.7884923253914836
+Terrapin Chopsecutioner,IPA,6,197,1.6217161310323531
+Terrapin Frenchy's Blues,Berliner Weisse,1,199,0
+Terrapin Frenchy's Blues,Berliner Weisse,2,76,17.977184164757197
+Terrapin Frenchy's Blues,Berliner Weisse,3,198,18.002049757848265
+Terrapin Frenchy's Blues,Berliner Weisse,4,163,18.004938810731336
+Terrapin Frenchy's Blues,Berliner Weisse,5,200,18.005896832342845
+Terrapin Frenchy's Blues,Berliner Weisse,6,197,18.037985579002672
+Terrapin Golden Ale,Blonde Ale,1,200,0
+Terrapin Golden Ale,Blonde Ale,2,163,0.5613748359580949
+Terrapin Golden Ale,Blonde Ale,3,198,0.6365589660553882
+Terrapin Golden Ale,Blonde Ale,4,166,0.8633614434645716
+Terrapin Golden Ale,Blonde Ale,5,76,1.0833053943704423
+Terrapin Golden Ale,Blonde Ale,6,197,2.1647326693052835
+Terrapin Good To Gose,Gose,1,201,0
+Terrapin Good To Gose,Gose,2,206,27.900020396036975
+Terrapin Good To Gose,Gose,3,168,28.195869625281908
+Terrapin Good To Gose,Gose,4,128,28.26391299841192
+Terrapin Good To Gose,Gose,5,159,28.44006742169753
+Terrapin Good To Gose,Gose,6,51,28.476519701204293
+Terrapin HI-5 IPA,California Style IPA,1,202,0
+Terrapin HI-5 IPA,California Style IPA,2,72,0.31028667911351815
+Terrapin HI-5 IPA,California Style IPA,3,20,0.7415463892048483
+Terrapin HI-5 IPA,California Style IPA,4,174,0.7417314422177463
+Terrapin HI-5 IPA,California Style IPA,5,73,0.7775206487289418
+Terrapin HI-5 IPA,California Style IPA,6,26,0.8736851648624955
+Terrapin Hoppin' Bubbly,Brut IPA,1,203,0
+Terrapin Hoppin' Bubbly,Brut IPA,2,45,22.82292163267713
+Terrapin Hoppin' Bubbly,Brut IPA,3,70,22.827566315140697
+Terrapin Hoppin' Bubbly,Brut IPA,4,46,22.88327583404483
+Terrapin Hoppin' Bubbly,Brut IPA,5,79,23.197006551948544
+Terrapin Hoppin' Bubbly,Brut IPA,6,155,23.277282334983575
+Terrapin Hopsecutioner,IPA,1,204,0
+Terrapin Hopsecutioner,IPA,2,171,0.5644577978769008
+Terrapin Hopsecutioner,IPA,3,213,0.5902823459289663
+Terrapin Hopsecutioner,IPA,4,73,0.7193876883538238
+Terrapin Hopsecutioner,IPA,5,30,0.7342471270219257
+Terrapin Hopsecutioner,IPA,6,72,0.8721626888418784
+Terrapin Jazz Cabbage,Hemp IPA,1,205,0
+Terrapin Jazz Cabbage,Hemp IPA,2,197,21.08190197807786
+Terrapin Jazz Cabbage,Hemp IPA,3,76,21.08547770647124
+Terrapin Jazz Cabbage,Hemp IPA,4,208,21.090545383641867
+Terrapin Jazz Cabbage,Hemp IPA,5,164,21.106685870948724
+Terrapin Jazz Cabbage,Hemp IPA,6,198,21.119177971398923
+Terrapin Luau Krunkles,IPA,1,206,0
+Terrapin Luau Krunkles,IPA,2,128,8.69442578281741
+Terrapin Luau Krunkles,IPA,3,213,8.695351392352325
+Terrapin Luau Krunkles,IPA,4,171,8.696963766465705
+Terrapin Luau Krunkles,IPA,5,73,8.7029514487013
+Terrapin Luau Krunkles,IPA,6,30,8.709543338688524
+Terrapin Moo-Hoo Chocolate Milk Stout,Chocolate Milk Stout,1,207,0
+Terrapin Moo-Hoo Chocolate Milk Stout,Chocolate Milk Stout,2,196,24.075252330902337
+Terrapin Moo-Hoo Chocolate Milk Stout,Chocolate Milk Stout,3,81,24.40903190757061
+Terrapin Moo-Hoo Chocolate Milk Stout,Chocolate Milk Stout,4,158,24.555973923673488
+Terrapin Moo-Hoo Chocolate Milk Stout,Chocolate Milk Stout,5,169,24.5841514794147
+Terrapin Moo-Hoo Chocolate Milk Stout,Chocolate Milk Stout,6,213,24.69916409217018
+Terrapin Mr. Krunkles,IPA,1,208,0
+Terrapin Mr. Krunkles,IPA,2,197,0.32338579900594255
+Terrapin Mr. Krunkles,IPA,3,164,1.3171379746070855
+Terrapin Mr. Krunkles,IPA,4,76,1.4539012678083336
+Terrapin Mr. Krunkles,IPA,5,198,1.8612852471773578
+Terrapin Mr. Krunkles,IPA,6,163,2.017438823397125
+Terrapin Panama Krunkles,IPA,1,209,0
+Terrapin Panama Krunkles,IPA,2,208,18.265733112278028
+Terrapin Panama Krunkles,IPA,3,197,18.266124169008346
+Terrapin Panama Krunkles,IPA,4,164,18.297258199229887
+Terrapin Panama Krunkles,IPA,5,76,18.31948525643585
+Terrapin Panama Krunkles,IPA,6,173,18.36465969511467
+Terrapin Peach Dreamsicle,IPA,1,210,0
+Terrapin Peach Dreamsicle,IPA,2,196,29.928299694246103
+Terrapin Peach Dreamsicle,IPA,3,208,30.326932423383926
+Terrapin Peach Dreamsicle,IPA,4,173,30.339972766585255
+Terrapin Peach Dreamsicle,IPA,5,197,30.344077559398276
+Terrapin Peach Dreamsicle,IPA,6,164,30.376246895384725
+Terrapin Recreation Ale,Session IPA,1,211,0
+Terrapin Recreation Ale,Session IPA,2,178,0.32118721530635586
+Terrapin Recreation Ale,Session IPA,3,214,0.4889173799393808
+Terrapin Recreation Ale,Session IPA,4,67,0.6346444683388262
+Terrapin Recreation Ale,Session IPA,5,170,0.6477232475225705
+Terrapin Recreation Ale,Session IPA,6,71,0.7116721919404432
+Terrapin Señor Krunkles,IPA,1,212,0
+Terrapin Señor Krunkles,IPA,2,208,18.273025681520586
+Terrapin Señor Krunkles,IPA,3,197,18.278281975448767
+Terrapin Señor Krunkles,IPA,4,164,18.307658227671023
+Terrapin Señor Krunkles,IPA,5,76,18.34211276896583
+Terrapin Señor Krunkles,IPA,6,173,18.354791239134357
+Terrapin So Fresh So Green Fresh Hop IPA,IPA,1,213,0
+Terrapin So Fresh So Green Fresh Hop IPA,IPA,2,171,0.39347599360751373
+Terrapin So Fresh So Green Fresh Hop IPA,IPA,3,73,0.4695362442570189
+Terrapin So Fresh So Green Fresh Hop IPA,IPA,4,30,0.5536515532515143
+Terrapin So Fresh So Green Fresh Hop IPA,IPA,5,204,0.5902823459289663
+Terrapin So Fresh So Green Fresh Hop IPA,IPA,6,72,0.7111915510665097
+Terrapin Sound Czech Pils,Czech Pilsner,1,214,0
+Terrapin Sound Czech Pils,Czech Pilsner,2,178,0.44618208454111175
+Terrapin Sound Czech Pils,Czech Pilsner,3,71,0.48815410544766025
+Terrapin Sound Czech Pils,Czech Pilsner,4,211,0.4889173799393808
+Terrapin Sound Czech Pils,Czech Pilsner,5,67,0.5011537454289932
+Terrapin Sound Czech Pils,Czech Pilsner,6,24,0.5526604053202676
+Terrapin Wake-N-Bake Coffee Oatmeal Imperial Stout,Coffee Oatmeal Imperial Stout,1,215,0
+Terrapin Wake-N-Bake Coffee Oatmeal Imperial Stout,Coffee Oatmeal Imperial Stout,2,115,17.832569845107056
+Terrapin Wake-N-Bake Coffee Oatmeal Imperial Stout,Coffee Oatmeal Imperial Stout,3,74,18.391758530797503
+Terrapin Wake-N-Bake Coffee Oatmeal Imperial Stout,Coffee Oatmeal Imperial Stout,4,172,19.438699631163065
+Terrapin Wake-N-Bake Coffee Oatmeal Imperial Stout,Coffee Oatmeal Imperial Stout,5,81,19.659777465408105
+Terrapin Wake-N-Bake Coffee Oatmeal Imperial Stout,Coffee Oatmeal Imperial Stout,6,68,19.870250510842183
+Terrapin Watermelon Gose,Gose,1,216,0
+Terrapin Watermelon Gose,Gose,2,206,22.79321367081278
+Terrapin Watermelon Gose,Gose,3,128,23.28118157003476
+Terrapin Watermelon Gose,Gose,4,159,23.463331981006533
+Terrapin Watermelon Gose,Gose,5,51,23.510462259193194
+Terrapin Watermelon Gose,Gose,6,24,23.511703867739445
+Tusk & Grain Barrel Aged Blend,Stout,1,217,0
+Tusk & Grain Barrel Aged Blend,Stout,2,68,3.1646003595696595
+Tusk & Grain Barrel Aged Blend,Stout,3,165,3.9561856698638174
+Tusk & Grain Barrel Aged Blend,Stout,4,173,4.1118374227855625
+Tusk & Grain Barrel Aged Blend,Stout,5,69,4.524792962334984
+Tusk & Grain Barrel Aged Blend,Stout,6,204,4.575751533870108
+Tyskie,International Pale Lager,1,218,0
+Tyskie,International Pale Lager,2,91,0.267012427290844
+Tyskie,International Pale Lager,3,50,2.8779245966838864
+Tyskie,International Pale Lager,4,34,6.398490810946687
+Tyskie,International Pale Lager,5,3,7.034946139379724
+Tyskie,International Pale Lager,6,26,7.0381662053321055
+Vizzy Black Cherry Lime,Hard Seltzer,1,219,0
+Vizzy Black Cherry Lime,Hard Seltzer,2,214,17.413304419813542
+Vizzy Black Cherry Lime,Hard Seltzer,3,211,17.417801179528716
+Vizzy Black Cherry Lime,Hard Seltzer,4,159,17.417993631779474
+Vizzy Black Cherry Lime,Hard Seltzer,5,178,17.422459870348575
+Vizzy Black Cherry Lime,Hard Seltzer,6,170,17.428268477340207
+VizzyBlueberry Pomegranate,Hard Seltzer,1,220,0
+VizzyBlueberry Pomegranate,Hard Seltzer,2,219,18.791118228578764
+VizzyBlueberry Pomegranate,Hard Seltzer,3,111,20.148719798740526
+VizzyBlueberry Pomegranate,Hard Seltzer,4,110,20.148719798740526
+VizzyBlueberry Pomegranate,Hard Seltzer,5,112,20.148719798740526
+VizzyBlueberry Pomegranate,Hard Seltzer,6,159,20.349005596234473
+Vizzy Strawberry Kiwi,Hard Seltzer,1,221,0
+Vizzy Strawberry Kiwi,Hard Seltzer,2,219,24.111371263214302
+Vizzy Strawberry Kiwi,Hard Seltzer,3,111,24.93086448753379
+Vizzy Strawberry Kiwi,Hard Seltzer,4,110,24.93086448753379
+Vizzy Strawberry Kiwi,Hard Seltzer,5,112,24.93086448753379
+Vizzy Strawberry Kiwi,Hard Seltzer,6,214,25.09558928271812
+Vizzy Pineapple Mango,Hard Seltzer,1,222,0
+Vizzy Pineapple Mango,Hard Seltzer,2,219,21.322210062033886
+Vizzy Pineapple Mango,Hard Seltzer,3,214,22.706730715730295
+Vizzy Pineapple Mango,Hard Seltzer,4,211,22.71017936761363
+Vizzy Pineapple Mango,Hard Seltzer,5,159,22.710326971144696
+Vizzy Pineapple Mango,Hard Seltzer,6,178,22.713752594265404
