@@ -3,6 +3,7 @@
 #' @param request Internal parameter for `{shiny}`. 
 #'     DO NOT REMOVE.
 #' @import shiny
+#' @import shinythemes
 #' @noRd
 app_ui <- function(request) {
   tagList(
@@ -10,7 +11,10 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # List the first level UI elements here 
     fluidPage(
-      h1("MCBeerRecommender")
+      #Theme
+      theme = shinytheme("simplex"),
+      h1(id="page_title", "BEER ME"),
+      mod_UMAP_Scatter_ui("UMAP_Scatter_ui_1")
     )
   )
 }

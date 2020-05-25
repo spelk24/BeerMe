@@ -1,0 +1,53 @@
+---
+title: "VIZ_dev"
+author: "Stephen Pelkofer"
+date: "5/25/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Libs
+
+```{r echo=FALSE}
+library(dplyr)
+library(ggplot2)
+library(plotly)
+library(ggtext)
+library(ggthemes)
+```
+
+
+## Data
+
+```{r}
+beer_full_df <- read.csv("../data-raw/beer_umap_full.csv")
+beer_nn <- read.csv("../data-raw/beer_nn.csv")
+```
+
+## UMAP Scatter
+
+```{r}
+gg_umap <- ggplot(data = beer_full_df,aes(x = UMAP_X,
+                                                y = UMAP_Y,
+                                                text = paste0(Brand,"<br>",Brand_Style,"<br>","ABV: ",ABV))) +
+  geom_point(colour = "#fe9929",
+             alpha = .6) +
+  labs(title = "UMAP Respresentation of Beer Data") +
+  theme(plot.title = element_markdown(size = 14),
+        plot.subtitle = element_markdown(size = 10),
+        plot.caption = element_markdown(),
+        legend.position = "top",
+        axis.title = element_blank(),
+        axis.ticks = element_blank(),
+        axis.text = element_blank(),
+        panel.background = element_rect(fill = "white", colour = "white"),
+        panel.grid.major = element_line(colour = "#f0f0f0",size = .1)) + 
+  geom_jitter(width = 1.5, height = 1.5,alpha = .6, color = "#fe9929")
+
+ggplotly(gg_umap, tooltip = "text") %>%
+            config(displayModeBar = F)
+```
+
