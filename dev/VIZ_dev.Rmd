@@ -20,6 +20,11 @@ library(ggthemes)
 ```
 
 
+## Resources
+
+* Git with R: https://happygitwithr.com/existing-github-last.html
+* Plotly: https://plotly-r.com/
+
 ## Data
 
 ```{r}
