@@ -17,6 +17,7 @@ library(ggplot2)
 library(plotly)
 library(ggtext)
 library(ggthemes)
+library(directlabels)
 ```
 
 
@@ -35,24 +36,97 @@ beer_nn <- read.csv("../data-raw/beer_nn.csv")
 ## UMAP Scatter
 
 ```{r}
+selection <- c("Miller High Life","Miller Lite","Redd's HardApple","Leinenkugel's Summer Shandy","Saint Archer Gold")
+colors <- c(
+  "#f6c101",
+  "#c96e12"
+)
+
+beer_full_df$Selected <- if_else(beer_full_df$Brand %in% selection,"Y","N")
+
 gg_umap <- ggplot(data = beer_full_df,aes(x = UMAP_X,
-                                                y = UMAP_Y,
-                                                text = paste0(Brand,"<br>",Brand_Style,"<br>","ABV: ",ABV))) +
-  geom_point(colour = "#fe9929",
-             alpha = .6) +
+                                          y = UMAP_Y,
+                                          fill = Selected,
+                                          color = Selected,
+                                          size = Selected,
+                                          text = paste0(Brand,"<br>",Brand_Style,"<br>","ABV: ",ABV))) +
+  geom_jitter(width = 1,
+              height = 1,
+              alpha = .7,
+              show.legend = FALSE) +
   labs(title = "UMAP Respresentation of Beer Data") +
+  scale_fill_manual(values = colors) +
+  scale_color_manual(values = colors) +
+  scale_size_manual(values = c(1.75,2.75)) +
   theme(plot.title = element_markdown(size = 14),
         plot.subtitle = element_markdown(size = 10),
         plot.caption = element_markdown(),
-        legend.position = "top",
+        legend.position = "none",
         axis.title = element_blank(),
         axis.ticks = element_blank(),
         axis.text = element_blank(),
         panel.background = element_rect(fill = "white", colour = "white"),
-        panel.grid.major = element_line(colour = "#f0f0f0",size = .1)) + 
-  geom_jitter(width = 1.5, height = 1.5,alpha = .6, color = "#fe9929")
+        panel.grid.major = element_line(colour = "#d9d9d9",size = .5))
+gg_umap
 
 ggplotly(gg_umap, tooltip = "text") %>%
-            config(displayModeBar = F)
+            config(displayModeBar = F) %>%
+            layout(title = list(text = paste0("BEER ME Nearest Neighbors",
+                                                     "<br>",
+                                                     "<sup>",
+                                                     "UMAP 2-D representation of beer ingreidents",
+                                                     "</sup>")))
 ```
+
+
+## UMAP Nearest Neighbors
+
+```{r}
+```
+
+
+```{r}
+selection <- c("Miller Lite")
+
+idxs <- beer_nn %>% filter(Brand %in% selection) %>% pull(Neighbor_Idx)
+neighbor_points <- beer_full_df %>% filter %>% filter(Brand != selection) %>% slice(idxs)
+
+beer_full_df$Selected <- if_else(beer_full_df$Brand %in% selection,"Y","N")
+
+gg_umap <- ggplot(data = beer_full_df,aes(x = UMAP_X,
+                                          y = UMAP_Y,
+                                          fill = Selected,
+                                          color = Selected,
+                                          size = Selected,
+                                          text = paste0(Brand,"<br>",Brand_Style,"<br>","ABV: ",ABV))) +
+  geom_jitter(width = 1,
+              height = 1,
+              alpha = .7,
+              show.legend = FALSE) +
+  geom_path(data = neighbor_points, aes(x = UMAP_X,
+                                        y = UMAP_Y)) +
+  labs(title = "UMAP Respresentation of Beer Data") +
+  scale_fill_manual(values = colors) +
+  scale_color_manual(values = colors) +
+  scale_size_manual(values = c(1.75,2.75)) +
+  theme(plot.title = element_markdown(size = 14),
+        plot.subtitle = element_markdown(size = 10),
+        plot.caption = element_markdown(),
+        legend.position = "none",
+        axis.title = element_blank(),
+        axis.ticks = element_blank(),
+        axis.text = element_blank(),
+        panel.background = element_rect(fill = "white", colour = "white"),
+        panel.grid.major = element_line(colour = "#d9d9d9",size = .5))
+
+ggplotly(gg_umap, tooltip = "text") %>%
+            config(displayModeBar = F) %>%
+            layout(title = list(text = paste0("BEER ME Nearest Neighbors",
+                                                     "<br>",
+                                                     "<sup>",
+                                                     "UMAP 2-D representation of beer ingreidents",
+                                                     "</sup>")))
+```
+
+
 
