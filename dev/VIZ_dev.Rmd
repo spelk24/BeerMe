@@ -11,13 +11,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Libs
 
-```{r echo=FALSE}
+```{r message=FALSE}
 library(dplyr)
 library(ggplot2)
 library(plotly)
 library(ggtext)
 library(ggthemes)
-library(directlabels)
+library(glue)
+library(stringr)
 ```
 
 
@@ -33,65 +34,30 @@ beer_full_df <- read.csv("../data-raw/beer_umap_full.csv")
 beer_nn <- read.csv("../data-raw/beer_nn.csv")
 ```
 
-## UMAP Scatter
+## UMAP Nearest Neighbors
 
 ```{r}
-selection <- c("Miller High Life","Miller Lite","Redd's HardApple","Leinenkugel's Summer Shandy","Saint Archer Gold")
 colors <- c(
   "#f6c101",
   "#c96e12"
 )
-
-beer_full_df$Selected <- if_else(beer_full_df$Brand %in% selection,"Y","N")
-
-gg_umap <- ggplot(data = beer_full_df,aes(x = UMAP_X,
-                                          y = UMAP_Y,
-                                          fill = Selected,
-                                          color = Selected,
-                                          size = Selected,
-                                          text = paste0(Brand,"<br>",Brand_Style,"<br>","ABV: ",ABV))) +
-  geom_jitter(width = 1,
-              height = 1,
-              alpha = .7,
-              show.legend = FALSE) +
-  labs(title = "UMAP Respresentation of Beer Data") +
-  scale_fill_manual(values = colors) +
-  scale_color_manual(values = colors) +
-  scale_size_manual(values = c(1.75,2.75)) +
-  theme(plot.title = element_markdown(size = 14),
-        plot.subtitle = element_markdown(size = 10),
-        plot.caption = element_markdown(),
-        legend.position = "none",
-        axis.title = element_blank(),
-        axis.ticks = element_blank(),
-        axis.text = element_blank(),
-        panel.background = element_rect(fill = "white", colour = "white"),
-        panel.grid.major = element_line(colour = "#d9d9d9",size = .5))
-gg_umap
-
-ggplotly(gg_umap, tooltip = "text") %>%
-            config(displayModeBar = F) %>%
-            layout(title = list(text = paste0("BEER ME Nearest Neighbors",
-                                                     "<br>",
-                                                     "<sup>",
-                                                     "UMAP 2-D representation of beer ingreidents",
-                                                     "</sup>")))
-```
-
-
-## UMAP Nearest Neighbors
-
-```{r}
-```
-
-
-```{r}
 selection <- c("Miller Lite")
+selection_abv <- beer_full_df %>%
+  filter(Brand == selection) %>%
+  pull(ABV)
 
-idxs <- beer_nn %>% filter(Brand %in% selection) %>% pull(Neighbor_Idx)
-neighbor_points <- beer_full_df %>% filter %>% filter(Brand != selection) %>% slice(idxs)
+idxs <- beer_nn %>% filter(Brand %in% selection, Neighbor_Rk <= 5) %>% pull(Neighbor_Idx)
+neighbor_points <- beer_full_df %>%
+  filter(Brand != selection) %>%
+  slice(idxs) %>%
+  pull(Brand)
 
-beer_full_df$Selected <- if_else(beer_full_df$Brand %in% selection,"Y","N")
+neighbor_points_abv <- beer_full_df %>%
+  filter(Brand != selection) %>%
+  slice(idxs) %>%
+  pull(ABV)
+
+beer_full_df$Selected <- if_else(beer_full_df$Brand %in% neighbor_points,"Y","N")
 
 gg_umap <- ggplot(data = beer_full_df,aes(x = UMAP_X,
                                           y = UMAP_Y,
@@ -103,8 +69,6 @@ gg_umap <- ggplot(data = beer_full_df,aes(x = UMAP_X,
               height = 1,
               alpha = .7,
               show.legend = FALSE) +
-  geom_path(data = neighbor_points, aes(x = UMAP_X,
-                                        y = UMAP_Y)) +
   labs(title = "UMAP Respresentation of Beer Data") +
   scale_fill_manual(values = colors) +
   scale_color_manual(values = colors) +
@@ -129,4 +93,49 @@ ggplotly(gg_umap, tooltip = "text") %>%
 ```
 
 
+## Zoomed in Neighbor Selection
+
+```{r}
+zoom_neighbor_data <- tibble(
+  x = c(0,.72,.72,-.72,-.72,0),
+  y = c(0,.72,-.72,-.72,.72,1.2),
+  center_x = c(0,0,0,0,0,0),
+  center_y = c(0,0,0,0,0,0),
+  beer = c(selection,neighbor_points),
+  abv = c(selection_abv,neighbor_points_abv)
+)
+# format label
+zoom_neighbor_data$abv = str_c(zoom_neighbor_data$abv,rep(c("%"),6),sep = "")
+zoom_neighbor_data$label = str_c(zoom_neighbor_data$beer,zoom_neighbor_data$abv,sep = "\nABV: ")
+
+neighbor_zoom <- ggplot(data = zoom_neighbor_data) +
+  geom_segment(aes(x = x, y = y, xend = center_x, yend = center_y),
+               colour = "#c96e12") +
+  geom_point(aes(x = x, y = y),
+             size = 5,
+             colour = "#c96e12") +
+  geom_label(aes(x = x, y = y,label = label),
+             fill = "#c96e12",
+             color = "white",
+             label.padding = unit(0.45, "lines"),
+             size = 3) +
+  xlim(-1.5,1.5) +
+  ylim(-1.5,1.5) +
+  labs(title = glue(selection, " Comps")) +
+  theme(plot.title = element_markdown(size = 14),
+        plot.subtitle = element_markdown(size = 10),
+        plot.caption = element_markdown(),
+        legend.position = "none",
+        axis.title = element_blank(),
+        axis.ticks = element_blank(),
+        axis.text = element_blank(),
+        panel.background = element_rect(fill = "white", colour = "white"),
+        panel.grid = element_blank())
+neighbor_zoom
+```
+
+
+
+## Reactable Table
+- Link to google search or molson coors product
 
