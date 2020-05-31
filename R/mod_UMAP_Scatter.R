@@ -13,7 +13,6 @@ mod_UMAP_Scatter_ui <- function(id){
     col_3(
       selectInput(ns("BeerSelection"),"Beers", choices = unique(beer_full_df$Brand))
       ),
-    
     col_12(plotlyOutput(ns("Scatter"), width = "90%", height = "480px")
     )
   )
@@ -80,10 +79,10 @@ mod_UMAP_Scatter_server <- function(input, output, session){
     
     ggplotly(gg_umap, tooltip = "text") %>%
       config(displayModeBar = F) %>%
-      layout(title = list(text = paste0("BEER ME Nearest Neighbors",
+      layout(title = list(text = paste0("Low Dimensional Respresentation of Beer Data",
                                         "<br>",
                                         "<sup>",
-                                        "UMAP 2-D representation of beer ingreidents",
+                                        "UMAP Algoritm: See Methodology tab for tutorial",
                                         "</sup>")))
   })
  

@@ -10,7 +10,7 @@
 mod_Nearest_Neighbors_ui <- function(id){
   ns <- NS(id)
   tagList(
-    col_12(plotOutput(ns("Neighbor_Zoom"), width = "75%", height = "380px"))
+    col_12(plotOutput(ns("Neighbor_Zoom"), width = "75%", height = "400px"))
   )
 }
     

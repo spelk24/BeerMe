@@ -12,12 +12,20 @@ app_ui <- function(request) {
     # List the first level UI elements here 
     fluidPage(
       #Theme
-      theme = shinytheme("simplex"),
-      h1(id="page_title", "Beer Me"),
-      fluidRow(mod_Nearest_Neighbors_ui("Nearest_Neighbors_ui_1")),
-      fluidRow(mod_UMAP_Scatter_ui("UMAP_Scatter_ui_1")),
-    )
+      theme = shinytheme("flatly"),
+      navbarPage(title = "Find me Beers that I'll Like!",windowTitle = "Beer Me",
+                 tabPanel("Beer Comparisons",
+                          h1(id="page_title", "Beer Me"),
+                          fluidRow(mod_UMAP_Scatter_ui("UMAP_Scatter_ui_1")
+                                  ),
+                          fluidRow(mod_Nearest_Neighbors_ui("Nearest_Neighbors_ui_1")
+                                  ),
+                          ),
+                 tabPanel("Beer Data"),
+                 tabPanel("Methodology")
+                )
   )
+)
 }
 
 #' Add external Resources to the Application
