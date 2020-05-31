@@ -37,6 +37,8 @@ beer_nn <- read.csv("../data-raw/beer_nn.csv")
 ## UMAP Nearest Neighbors
 
 ```{r}
+
+#Logic that can be moved to helpers.R
 colors <- c(
   "#f6c101",
   "#c96e12"
@@ -110,21 +112,22 @@ zoom_neighbor_data$label = str_c(zoom_neighbor_data$beer,zoom_neighbor_data$abv,
 
 neighbor_zoom <- ggplot(data = zoom_neighbor_data) +
   geom_segment(aes(x = x, y = y, xend = center_x, yend = center_y),
-               colour = "#c96e12") +
+               colour = colors[2]) +
   geom_point(aes(x = x, y = y),
              size = 5,
-             colour = "#c96e12") +
+             colour = colors[2]) +
   geom_label(aes(x = x, y = y,label = label),
-             fill = "#c96e12",
+             fill = colors[2],
              color = "white",
              label.padding = unit(0.45, "lines"),
              size = 3) +
   xlim(-1.5,1.5) +
   ylim(-1.5,1.5) +
-  labs(title = glue(selection, " Comps")) +
-  theme(plot.title = element_markdown(size = 14),
+  labs(title = glue("If you like ","<b style='color:#c96e12'>",selection,"</b> you might<br>also enjoy these ","<b style='color:#c96e12'>similar beers</b>"),
+       caption = "For detailed ingredients on each beer, go to the Beer Data tab") +
+  theme(plot.title = element_markdown(size = 14, hjust = .5, vjust = .1),
         plot.subtitle = element_markdown(size = 10),
-        plot.caption = element_markdown(),
+        plot.caption = element_markdown(hjust = .5),
         legend.position = "none",
         axis.title = element_blank(),
         axis.ticks = element_blank(),

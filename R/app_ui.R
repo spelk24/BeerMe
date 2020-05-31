@@ -13,8 +13,9 @@ app_ui <- function(request) {
     fluidPage(
       #Theme
       theme = shinytheme("simplex"),
-      h1(id="page_title", "BEER ME"),
-      mod_UMAP_Scatter_ui("UMAP_Scatter_ui_1")
+      h1(id="page_title", "Beer Me"),
+      fluidRow(mod_Nearest_Neighbors_ui("Nearest_Neighbors_ui_1")),
+      fluidRow(mod_UMAP_Scatter_ui("UMAP_Scatter_ui_1")),
     )
   )
 }
