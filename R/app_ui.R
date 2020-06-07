@@ -13,13 +13,19 @@ app_ui <- function(request) {
     fluidPage(
       #Theme
       theme = shinytheme("flatly"),
-      navbarPage(title = "Find me Beers that I'll Like!",windowTitle = "Beer Me",
+      navbarPage(title = "Beer Me",windowTitle = "Beer Me",
                  tabPanel("Beer Comparisons",
-                          h1(id="page_title", "Beer Me"),
-                          fluidRow(mod_UMAP_Scatter_ui("UMAP_Scatter_ui_1")
-                                  ),
-                          fluidRow(mod_Nearest_Neighbors_ui("Nearest_Neighbors_ui_1")
-                                  ),
+                          h2(id="page_title", "Beer Me"),
+                          p(id = "page_description", "Here's how it works: you choose one of your favorite beers, and the algorithm
+                            will give you 5 recommendations for similar beers. Some beers might be very similar, but others might
+                            surprise you. The data used in the analysis includes all of the nutritional information (calories, ABV, sodium,
+                            etc.) as well as the ingredients used in the beer."),
+                          br(),
+                          p("The scatterplot is a representation of all 220 beers in a low-dimensional space using a technique 
+                          called Uniform Manifold Approximation and Projection (UMAP). The Comparisons plot shows the 
+                          5 nearest neighbors from the UMAP algorithm. For information on the technical details of UMAP, please see 
+                          the methodology tab."),
+                          mod_UMAP_Scatter_ui("UMAP_Scatter_ui_1"),
                           ),
                  tabPanel("Beer Data"),
                  tabPanel("Methodology")

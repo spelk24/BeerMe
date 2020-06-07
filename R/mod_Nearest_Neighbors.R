@@ -32,7 +32,7 @@ mod_Nearest_Neighbors_server <- function(input, output, session){
       "#f6c101",
       "#c96e12"
     )
-    selection <- c("Miller Lite")
+    selection <- input$BeerSelection
     selection_abv <- beer_full_df %>%
       filter(Brand == selection) %>%
       pull(ABV)
