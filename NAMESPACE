@@ -2,9 +2,12 @@
 
 export(run_app)
 import(dplyr)
+import(formattable)
 import(ggplot2)
 import(ggtext)
 import(glue)
+import(kableExtra)
+import(knitr)
 import(plotly)
 import(shiny)
 import(shinythemes)

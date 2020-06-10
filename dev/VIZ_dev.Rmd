@@ -19,6 +19,8 @@ library(ggtext)
 library(ggthemes)
 library(glue)
 library(stringr)
+library(kableExtra)
+library(formattable)
 ```
 
 
@@ -139,6 +141,35 @@ neighbor_zoom
 
 
 
-## Reactable Table
+
+## KableExtra Table
 - Link to google search or molson coors product
+
+```{r}
+colors <- c(
+  "#f6c101",
+  "#c96e12"
+)
+selection <- c("Miller Lite")
+```
+
+https://cran.r-project.org/web/packages/kableExtra/vignettes/use_kable_in_shiny.html
+
+```{r}
+
+idxs <- beer_nn %>% filter(Brand %in% selection, Neighbor_Rk <= 5) %>% pull(Neighbor_Idx)
+neighbor_points <- beer_full_df %>%
+  filter(Brand != selection) %>%
+  slice(idxs) %>%
+  select(Brand, Brand_Style, ABV, Calories)
+neighbor_points <- neighbor_points %>%
+  mutate(ABV = color_tile("white","#df8d03")(ABV),
+         Calories = color_bar("#fae96f")(Calories))
+kable(neighbor_points, escape = F) %>% 
+  kable_styling(full_width = FALSE, position = "left",
+                bootstrap_options = c("hover")) %>% 
+  row_spec(1:nrow(neighbor_points), color = "black") %>%
+  column_spec(3:4,width = "1cm") %>% 
+  add_header_above(c(" "= 2, "Nutrition" = 2))
+```
 

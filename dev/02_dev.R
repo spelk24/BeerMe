@@ -15,7 +15,7 @@
 
 ## Dependencies ----
 ## Add one line by package you want to add as dependency
-usethis::use_package( "stringr" )
+usethis::use_package( "formattable" )
 
 ## Add modules ----
 ## Create a module infrastructure in R/
