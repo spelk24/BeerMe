@@ -40,8 +40,8 @@ mod_UMAP_Scatter_server <- function(input, output, session){
     
     ### --- Logic that can be moved to helpers.R --- ###
     colors <- c(
-      "#f6c101",
-      "#c96e12"
+      "#fec44f",
+      "#ec7014"
     )
     selection <- input$BeerSelection
     
@@ -52,20 +52,20 @@ mod_UMAP_Scatter_server <- function(input, output, session){
       pull(Brand)
     
     
-    beer_full_df$Selected <- if_else(beer_full_df$Brand %in% neighbor_points,"Y","N")
+    beer_full_df$Recommendation <- if_else(beer_full_df$Brand %in% neighbor_points,"Recommended","Other")
     
     ### --- UMAP Plot--- ###
     
     gg_umap <- ggplot(data = beer_full_df,aes(x = UMAP_X,
                                               y = UMAP_Y,
-                                              fill = Selected,
-                                              color = Selected,
-                                              size = Selected,
+                                              fill = Recommendation,
+                                              color = Recommendation,
+                                              size = Recommendation,
                                               text = paste0(Brand,"<br>",Brand_Style,"<br>","ABV: ",ABV))) +
       geom_jitter(width = 1.2,
                   height = 1.2,
                   alpha = .6,
-                  show.legend = FALSE) +
+                  show.legend = TRUE) +
       labs(title = "UMAP Respresentation of Beer Data",
            x = "UMAP 1",
            y = "UMAP 2") +
@@ -75,21 +75,24 @@ mod_UMAP_Scatter_server <- function(input, output, session){
       theme(plot.title = element_markdown(size = 14),
             plot.subtitle = element_markdown(size = 10),
             plot.caption = element_markdown(),
-            legend.position = "none",
+            legend.position = "bottom",
+            legend.title = element_markdown(size = 10),
             axis.title = element_markdown(size = 10),
             axis.ticks = element_blank(),
             axis.text = element_blank(),
-            panel.background = element_rect(fill = "white", colour = "white"),
-            panel.grid.major = element_blank(),
+            panel.background  = element_rect(fill = "white"),
+            panel.grid.major = element_line(colour="#F0F3F4", size=0.25),
             axis.line = element_line(color = "#d9d9d9",size = 1.5))
     
     ggplotly(gg_umap, tooltip = "text") %>%
       config(displayModeBar = F) %>%
-      layout(title = list(text = paste0("2-D Respresentation",
+      layout(title = list(text = paste0("UMAP Coordinates",
                                         "<br>",
                                         "<sup>",
-                                        "UMAP",
-                                        "</sup>")))
+                                        "See methodology tab",
+                                        "</sup>")),
+             legend = list(orientation = "h",
+                           y = 15, x = 0.5))
   })
     
   output$Neighbor_Table <- function() {

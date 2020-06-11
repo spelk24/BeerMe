@@ -12,7 +12,7 @@ app_ui <- function(request) {
     # List the first level UI elements here 
     fluidPage(
       #Theme
-      theme = shinytheme("flatly"),
+      theme = shinytheme("lumen"),
       navbarPage(title = "Beer Me",windowTitle = "Beer Me",
                  tabPanel("Beer Comparisons",
                           h2(id="page_title", "Beer Me"),
