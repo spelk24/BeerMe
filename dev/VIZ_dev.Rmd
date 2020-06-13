@@ -173,3 +173,9 @@ kable(neighbor_points, escape = F) %>%
   add_header_above(c(" "= 2, "Nutrition" = 2))
 ```
 
+## Beer Data Table
+
+```{r}
+
+```
+
