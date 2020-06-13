@@ -24,7 +24,7 @@ app_ui <- function(request) {
                             but others might surprise you. The data used in the analysis includes all of the nutritional information (calories, ABV, sodium,
                             etc.) as well as the ingredients used in the beer."),
                           br(),
-                          p("The tableshows the 5 nearest neighbors from the UMAP algorithm - which are the top 5 recommendations.
+                          p("The table shows the 5 nearest neighbors for each beer - which are the top 5 recommendations.
                           The scatterplot is a representation of all 220 beers in a 2-dimensional space using a technique 
                           called Uniform Manifold Approximation and Projection (UMAP). For information on the technical details of UMAP, please see 
                           the methodology tab."),
