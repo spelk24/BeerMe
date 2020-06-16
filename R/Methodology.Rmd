@@ -4,7 +4,7 @@ author: "Stephen Pelkofer"
 date: "6/13/2020"
 output:
   html_document:
-    theme: flatly
+    theme: lumen
     toc: true
     toc_float: true
 ---
@@ -39,7 +39,7 @@ here was the process:
   
 As parts 1 and 2 are boring, I will focus mainly on the methodology pieces in parts 3,4, and 5.
 
-## Libraries & Data
+# Libraries & Data
 
 The following packages are needed.
 
@@ -60,7 +60,7 @@ beer_full <- beer_data %>%
   select(!c("Calories_from_fat","Cholesterol_mg","Fat_grams","Saturated_fat_grams","Trans_fat_grams","Fiber_grams"))
 ```
 
-## Partitioning around Medoids
+# Partitioning around Medoids
 
 Partition around medics (PAM) is an algorithm that is intended to find objects (medoids) that are centrally located in clusters. The goal of the algorithm is to minimize the average dissimilarity of objects to their closest selected object. 
 
@@ -72,39 +72,48 @@ cluster_data_input <- beer_full %>% select(!c("Brand","Brand_Style","Ingredients
 cluster_dist_input <- dist(cluster_data_input, method = "gower")
 ```
 
-Used PAM with k = 10....
-Added labels to data...
+For the PAM cluster, I chose k = 10 (clusters) based on the [Silhouette method](https://en.wikipedia.org/wiki/Silhouette_(clustering)), which is a measure of how similar objects are to their cluster label. Values for k = 5:20 produced similar silhouette scores, but I chose 10 based on some domain knowledge of the beer data set.
 
 ```{r}
-pam_gower <- pam(x = cluster_dist_input, k = 10, diss = TRUE, cluster.only = TRUE)
+pam_cluster <- pam(x = cluster_dist_input, k = 10, diss = TRUE, cluster.only = TRUE)
 beer_data_with_clusters <- beer_full %>%
-  mutate(Ingr_Cluster = as.factor(pam_gower))
+  mutate(Ingr_Cluster = as.factor(pam_cluster))
 ```
 
+There isn't a ton we can do with the cluster labels yet. Ideally, I want to be able to visualize the beers on a scatterplot, and be able to recommend 5 other beers, based on any selection. This is where UMAP comes in.
 
-## Uniform Manifold Approximation and Projection (UMAP)
 
-- Parameters: https://rdrr.io/cran/uwot/man/umap.html
-UMAP projection...
-Put weight for target at 50%...
+# Uniform Manifold Approximation and Projection (UMAP)
+
+UMAP is a dimensionality reduction technique that uses neighbor graphs to project data down to a lower space. In simple terms, I want to go from a 222x177 (222 beers, 177 features) matrix to a 222x2 matrix. If I can project the dataset into 2 dimensions, I can visualize all the beers on a scatterplot.
+
+One of the cool things about UMAP is that it tries to optimize for both the local and global structures; something t-SNE (another dimensionality reduction technique) does not do well. This is important because when we visualize the UMAP output, there might be two clusters of beers close to eachother. The two clusters might have some similarities (high ABV, high calories, fruity, etc.).
+
+For more technical details on UMAP, check out this awesome talk from PyData [Modern Approaches to Dimension Reduction](https://www.youtube.com/watch?v=YPJQydzTLwQ).
+
+I'm using the [uwot package](https://github.com/jlmelville/uwot) implementation of UMAP. This is one of my favorite implementations of UMAP becasue for a smaller dataset (n < 4096), the UMAP algorithm allows you to extract the exact nearest neighors. I only have 222 beers in the data, so the nearest neighbors will be the "Beer Me" recommendations.
+
+The code below shows the UMAP implementations. I've included the cluster labels as a target variable, and gave that variable a 50% weight. This is not mandatory - I don't even have to use a target variable, but the cluster labels likley provide meaningful information in are otherwise sparse data set.
 
 ```{r}
-## Algo
+## UMAP
 umap_data_input <- beer_data_with_clusters %>% 
   select(!contains("Brand")) %>%
   select(!Ingredients)
 
 umap_output <- uwot::umap(umap_data_input,
                           y = umap_data_input$Ingr_Cluster,
-                          target_weight = .5,
+                          target_weight = .5, # 50% on the target var (cluster label)
                           metric = "euclidean",
                           n_neighbors = 6,
                           n_components = 2,
                           spread = .75,
                           min_dist = .01,
                           scale = TRUE,
-                          ret_nn = TRUE) #retain the nearest neighbors
+                          ret_nn = TRUE) # retain the nearest neighbors
 ```
+
+For more information of the hypyerparameters that you can tune in uwot::umap(), check out this link [UMAP hyperparameters](https://rdrr.io/cran/uwot/man/umap.html).
 
 Plotting UMAP with the cluster labels...
 
