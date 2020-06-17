@@ -1,5 +1,5 @@
 ---
-title: "Methodology"
+title: "Beer Me Methodology"
 author: "Stephen Pelkofer"
 date: "6/13/2020"
 output:
@@ -13,31 +13,29 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Beer Me Methodology
-
 In the "Beer Me" analysis, several steps were performed before reaching the end outputs on the "Beer Comparisons" tab. At a high level
 here was the process:
 
-1. Scrape the data from MolsonCoors, which can be found here: [molsoncoors.com](https://www.molsoncoors.com/sites/molsonco/files/Combined%20Website%20Update%2006112020_0.pdf)
-  - This data was *messy* - as it was free text in a PDF
-  - The scraping process was not as automated as I had hoped for, but it was certainly faster than manual copying and pasting
-2. Cleaning the data
-  - Some basic EDA and feature selection
-  - Removed variables with zero or low variance
-  - Combined ingredients that were similar
-  - Created dummy-variables from the ingredients
-  - The end result was a 222x186 dataset
-3. Partioning Around Medoids (PAM) cluster algorithm
-  - Unsupervised algorithm similar to k-means
-  - Added cluster labels to the dataset
-4. Uniform Manifold Approximation and Projection (UMAP)
-  - Dimensionality reduction technique
-  - Very good at maintainig local and global structure of the data
-5. Nearest Neighbors
-  - Extract nearest neighbors for each beer
-  - These neighbors are the recommendations
+  1. Scrape the data from MolsonCoors, which can be found here: [molsoncoors.com](https://www.molsoncoors.com/sites/molsonco/files/Combined%20Website%20Update%2006112020_0.pdf)
+    - This data was *messy* - as it was free text in a PDF
+    - The scraping process was not as automated as I had hoped for, but it was certainly faster than manual copying and pasting
+  2. Cleaning the data
+      - Some basic EDA and feature selection
+      - Removed variables with zero or low variance
+      - Combined ingredients that were similar
+      - Created dummy-variables from the ingredients
+      - The end result was a 222x186 dataset
+  3. Partioning Around Medoids (PAM) cluster algorithm
+      - Unsupervised algorithm similar to k-means
+      - Added cluster labels to the dataset
+  4. Uniform Manifold Approximation and Projection (UMAP)
+      - Dimensionality reduction technique
+      - Very good at maintainig local and global structure of the data
+  5. Nearest Neighbors
+      - Extract nearest neighbors for each beer
+      - These neighbors are the recommendations
   
-As parts 1 and 2 are boring, I will focus mainly on the methodology pieces in parts 3,4, and 5.
+Parts 1 and 2 are not important to the methodology used in the application, so I will focus mainly parts 3,4, and 5.
 
 # Libraries & Data
 
@@ -45,13 +43,14 @@ The following packages are needed.
 
 ```{r message = FALSE}
 library(tidyverse)
-library(caret)
 library(ggtext)
 library(tidyr)
 library(plotly)
 library(StatMatch)
 library(cluster)
 library(uwot)
+library(kableExtra)
+library(formattable)
 ```
 
 ```{r  include = FALSE, message = FALSE}
@@ -115,7 +114,7 @@ umap_output <- uwot::umap(umap_data_input,
 
 For more information of the hypyerparameters that you can tune in uwot::umap(), check out this link [UMAP hyperparameters](https://rdrr.io/cran/uwot/man/umap.html).
 
-Plotting UMAP with the cluster labels...
+Now that I have the 2-D output from UMAP, I can plot this using ggplot2 and add the cluster label as the color. This is a pretty good visual representation of the beer data set. Since I gave a 50% weight to the target feature (the cluster label), objects in the same cluster tend to be pretty close together, but not always
 
 ```{r}
 # Plotting UMAP
@@ -127,20 +126,24 @@ gg_umap <- ggplot(data = umap_plotting_data,aes(x = UMAP_X,
                                                 text = paste0(Brand,"<br>",Brand_Style,"<br>","ABV: ",ABV))) +
   geom_point(colour = "#fe9929",
              alpha = .6) +
-  labs(title = "UMAP 2-D Respresentation of Beer Data") +
+  labs(title = "UMAP 2-D Respresentation of Beer Data",
+       x = "UMAP 1",
+       y = "UMAP 2") +
   theme(plot.title = element_markdown(size = 14),
         plot.subtitle = element_markdown(size = 10),
         plot.caption = element_markdown(),
-        legend.position = "top",
+        legend.position = "bottom",
         panel.background = element_rect(fill = "white", colour = "white"),
         panel.grid.major = element_line(colour = "#f0f0f0",size = .1)) + 
-  geom_jitter(width = 1.5, height = 1.5,alpha = .6)
+  geom_jitter(width = 1.5, height = 1.5,alpha = .6) #used because some beers are *too* similar and overlap
 
 ggplotly(gg_umap, tooltip = "text") %>%
             config(displayModeBar = F)
 ```
 
-Becasue it's a smaller dataset, UMAP can extract the nearest neighbors...
+# Nearest Neighbors & Recommendations
+
+As I mentioned earlier, becasue I have a smaller data set (n = 222), UMAP can extract the exact nearest neighbors. The code below creates a "nearest neighbors" data set, which I'll use to show beer recoemmendations based on any given selection.
 
 ```{r}
 # Extract Nearest Neigbor Data
@@ -154,10 +157,49 @@ beer_nn_data <- beer_nn_data %>%
 names(beer_nn_data) <- c("Brand","Brand_Style","Neighbor_Rk","Neighbor_Idx","Neighbor_Dist")
 ```
 
-Example... Miller lite
-Same kable table from Beer Comparison's tab...
+I'll show two examples. One go-to beer, and one beer that's not so basic. Here are the top recommendations if you enjoy Miller Lite, but you're looking to try a differen't domestic MolsonCoors product.
 
 ```{r}
-
+selection <- c("Miller Lite")
+idxs <- beer_nn_data %>% filter(Brand %in% selection, Neighbor_Rk <= 5) %>% pull(Neighbor_Idx)
+neighbor_points <- beer_full %>%
+  filter(Brand != selection) %>%
+  slice(idxs) %>%
+  select(Brand, Brand_Style, ABV, Calories)
+neighbor_points <- neighbor_points %>%
+  mutate(ABV = color_tile("white","#df8d03")(ABV),
+         Calories = color_bar("#fae96f")(Calories))
+kable(neighbor_points, escape = F) %>% 
+  kable_styling(full_width = FALSE, position = "left",
+                bootstrap_options = c("hover")) %>% 
+  row_spec(1:nrow(neighbor_points), color = "black") %>%
+  column_spec(3:4,width = "1cm") %>% 
+  add_header_above(c(" "= 2, "Nutrition" = 2))
 ```
+
+The Miller Lite comparisons shouldn't come as a big surprise, but if you're looking for something lighter with a little extra ABV, Molson Candian might be your new lager!
+
+The next example will be for Blue Moon Honey Wheat. The recommendations for this one aren't quite as obvious. 
+
+```{r}
+selection <- c("Blue Moon Honey Wheat")
+idxs <- beer_nn_data %>% filter(Brand %in% selection, Neighbor_Rk <= 5) %>% pull(Neighbor_Idx)
+neighbor_points <- beer_full %>%
+  filter(Brand != selection) %>%
+  slice(idxs) %>%
+  select(Brand, Brand_Style, ABV, Calories)
+neighbor_points <- neighbor_points %>%
+  mutate(ABV = color_tile("white","#df8d03")(ABV),
+         Calories = color_bar("#fae96f")(Calories))
+kable(neighbor_points, escape = F) %>% 
+  kable_styling(full_width = FALSE, position = "left",
+                bootstrap_options = c("hover")) %>% 
+  row_spec(1:nrow(neighbor_points), color = "black") %>%
+  column_spec(3:4,width = "1cm") %>% 
+  add_header_above(c(" "= 2, "Nutrition" = 2))
+```
+
+I've personally had none of these beers, so I have a few to try out; especially that Blue Moon Iced Coffee Blonde.
+
+# Conclusion
 
