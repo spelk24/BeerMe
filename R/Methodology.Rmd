@@ -24,13 +24,13 @@ here was the process:
       - Removed variables with zero or low variance
       - Combined ingredients that were similar
       - Created dummy-variables from the ingredients
-      - The end result was a 222x186 dataset
-  3. Partioning Around Medoids (PAM) cluster algorithm
+      - The end result was a 222x186 data set
+  3. Partitioning Around Medoids (PAM) cluster algorithm
       - Unsupervised algorithm similar to k-means
-      - Added cluster labels to the dataset
+      - Added cluster labels to the data set
   4. Uniform Manifold Approximation and Projection (UMAP)
       - Dimensionality reduction technique
-      - Very good at maintainig local and global structure of the data
+      - Very good at maintaining local and global structure of the data
   5. Nearest Neighbors
       - Extract nearest neighbors for each beer
       - These neighbors are the recommendations
@@ -63,7 +63,7 @@ beer_full <- beer_data %>%
 
 Partition around medics (PAM) is an algorithm that is intended to find objects (medoids) that are centrally located in clusters. The goal of the algorithm is to minimize the average dissimilarity of objects to their closest selected object. 
 
-I used the PAM clustering algorithm on the full beer dataset. Before I ran the model, I had to create a distance matrix form the data. The distance matric has pairwise distances for each datapoint. I used the [gower distance]("https://medium.com/@rumman1988/clustering-categorical-and-numerical-datatype-using-gower-distance-ab89b3aa90d9#:~:text=Gower%20Distance%20is%20a%20distance,of%20categorical%20and%20numerical%20values."), because I had a mix of numerical and categorical variables.
+I used the PAM clustering algorithm on the full beer data set. Before I ran the model, I had to create a distance matrix form the data. The distance matrix has pairwise distances for each data point. I used the [gower distance]("https://medium.com/@rumman1988/clustering-categorical-and-numerical-datatype-using-gower-distance-ab89b3aa90d9#:~:text=Gower%20Distance%20is%20a%20distance,of%20categorical%20and%20numerical%20values."), because I had a mix of numerical and categorical variables.
 
 ```{r}
 # Gower Dist
@@ -79,20 +79,20 @@ beer_data_with_clusters <- beer_full %>%
   mutate(Ingr_Cluster = as.factor(pam_cluster))
 ```
 
-There isn't a ton we can do with the cluster labels yet. Ideally, I want to be able to visualize the beers on a scatterplot, and be able to recommend 5 other beers, based on any selection. This is where UMAP comes in.
+There isn't a ton we can do with the cluster labels yet. Ideally, I want to be able to visualize the beers on a scatter plot, and be able to recommend 5 other beers, based on any selection. This is where UMAP comes in.
 
 
 # Uniform Manifold Approximation and Projection (UMAP)
 
-UMAP is a dimensionality reduction technique that uses neighbor graphs to project data down to a lower space. In simple terms, I want to go from a 222x177 (222 beers, 177 features) matrix to a 222x2 matrix. If I can project the dataset into 2 dimensions, I can visualize all the beers on a scatterplot.
+UMAP is a dimensionality reduction technique that uses neighbor graphs to project data down to a lower space. In simple terms, I want to go from a 222x177 (222 beers, 177 features) matrix to a 222x2 matrix. If I can project the data set into 2 dimensions, I can visualize all the beers on a scatter plot.
 
-One of the cool things about UMAP is that it tries to optimize for both the local and global structures; something t-SNE (another dimensionality reduction technique) does not do well. This is important because when we visualize the UMAP output, there might be two clusters of beers close to eachother. The two clusters might have some similarities (high ABV, high calories, fruity, etc.).
+One of the cool things about UMAP is that it tries to optimize for both the local and global structures; something t-SNE (another dimensionality reduction technique) does not do well. This is important because when we visualize the UMAP output, there might be two clusters of beers close to each other. The two clusters might have some similarities (high ABV, high calories, fruity, etc.).
 
 For more technical details on UMAP, check out this awesome talk from PyData [Modern Approaches to Dimension Reduction](https://www.youtube.com/watch?v=YPJQydzTLwQ).
 
-I'm using the [uwot package](https://github.com/jlmelville/uwot) implementation of UMAP. This is one of my favorite implementations of UMAP becasue for a smaller dataset (n < 4096), the UMAP algorithm allows you to extract the exact nearest neighors. I only have 222 beers in the data, so the nearest neighbors will be the "Beer Me" recommendations.
+I'm using the [uwot package](https://github.com/jlmelville/uwot) implementation of UMAP. This is one of my favorite implementations of UMAP because for a smaller data set (n < 4096), the UMAP algorithm allows you to extract the exact nearest neighbors. I only have 222 beers in the data, so the nearest neighbors will be the "Beer Me" recommendations.
 
-The code below shows the UMAP implementations. I've included the cluster labels as a target variable, and gave that variable a 50% weight. This is not mandatory - I don't even have to use a target variable, but the cluster labels likley provide meaningful information in are otherwise sparse data set.
+The code below shows the UMAP implementations. I've included the cluster labels as a target variable, and gave that variable a 50% weight. This is not mandatory - I don't even have to use a target variable, but the cluster labels likely provide meaningful information in are otherwise sparse data set.
 
 ```{r}
 ## UMAP
@@ -126,7 +126,7 @@ gg_umap <- ggplot(data = umap_plotting_data,aes(x = UMAP_X,
                                                 text = paste0(Brand,"<br>",Brand_Style,"<br>","ABV: ",ABV))) +
   geom_point(colour = "#fe9929",
              alpha = .6) +
-  labs(title = "UMAP 2-D Respresentation of Beer Data",
+  labs(title = "UMAP 2-D Representation of Beer Data",
        x = "UMAP 1",
        y = "UMAP 2") +
   theme(plot.title = element_markdown(size = 14),
@@ -143,7 +143,7 @@ ggplotly(gg_umap, tooltip = "text") %>%
 
 # Nearest Neighbors & Recommendations
 
-As I mentioned earlier, becasue I have a smaller data set (n = 222), UMAP can extract the exact nearest neighbors. The code below creates a "nearest neighbors" data set, which I'll use to show beer recoemmendations based on any given selection.
+As I mentioned earlier, because I have a smaller data set (n = 222), UMAP can extract the exact nearest neighbors. The code below creates a "nearest neighbors" data set, which I'll use to show beer recommendations based on any given selection.
 
 ```{r}
 # Extract Nearest Neigbor Data
@@ -157,7 +157,7 @@ beer_nn_data <- beer_nn_data %>%
 names(beer_nn_data) <- c("Brand","Brand_Style","Neighbor_Rk","Neighbor_Idx","Neighbor_Dist")
 ```
 
-I'll show two examples. One go-to beer, and one beer that's not so basic. Here are the top recommendations if you enjoy Miller Lite, but you're looking to try a differen't domestic MolsonCoors product.
+I'll show two examples. One go-to beer, and one beer that's not so basic. Here are the top recommendations if you enjoy Miller Lite, but you're looking to try a different domestic MolsonCoors product.
 
 ```{r}
 selection <- c("Miller Lite")
@@ -177,7 +177,7 @@ kable(neighbor_points, escape = F) %>%
   add_header_above(c(" "= 2, "Nutrition" = 2))
 ```
 
-The Miller Lite comparisons shouldn't come as a big surprise, but if you're looking for something lighter with a little extra ABV, Molson Candian might be your new lager!
+The Miller Lite comparisons shouldn't come as a big surprise, but if you're looking for something lighter with a little extra ABV, Molson Canadian might be your new lager!
 
 The next example will be for Blue Moon Honey Wheat. The recommendations for this one aren't quite as obvious. 
 
@@ -203,3 +203,6 @@ I've personally had none of these beers, so I have a few to try out; especially 
 
 # Conclusion
 
+I hope this mini-tutorial was a helpful introduction on how to use clustering and UMAP to build a recommender system. I'd love to expand this to all breweries & beers that have publicly available nutrition information, but that would take quite a bit of research on finding and combining the data. If you are reading this and you know of a large, publicly available "beer-database", please send the information my way by emailing me at spelkofer24@yahoo.com.
+
+Cheers!
