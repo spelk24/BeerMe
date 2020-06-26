@@ -30,8 +30,8 @@ app_ui <- function(request) {
                           the methodology tab."),
                           mod_UMAP_Scatter_ui("UMAP_Scatter_ui_1"),
                           ),
-                 tabPanel("Beer Data"),
-                 tabPanel("Methodology")
+                 tabPanel("Methodology",
+                          uiOutput('markdown'))
                 )
   )
 )

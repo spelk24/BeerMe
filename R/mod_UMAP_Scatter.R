@@ -86,11 +86,7 @@ mod_UMAP_Scatter_server <- function(input, output, session){
     
     ggplotly(gg_umap, tooltip = "text") %>%
       config(displayModeBar = F) %>%
-      layout(title = list(text = paste0("UMAP Coordinates",
-                                        "<br>",
-                                        "<sup>",
-                                        "See methodology tab",
-                                        "</sup>")),
+      layout(title = list(text = paste0("UMAP Coordinates")),
              legend = list(orientation = "h",
                            y = 15, x = 0.5))
   })
@@ -121,4 +117,3 @@ mod_UMAP_Scatter_server <- function(input, output, session){
     
 ## To be copied in the server
 # callModule(mod_UMAP_Scatter_server, "UMAP_Scatter_ui_1")
- 

@@ -7,4 +7,7 @@
 app_server <- function( input, output, session ) {
   # List the first level callModules here
   callModule(mod_UMAP_Scatter_server, "UMAP_Scatter_ui_1")
+  output$markdown <- renderUI({
+    HTML(markdown::markdownToHTML(knit('R/Methodology.rmd', quiet = TRUE)))
+  })
 }
