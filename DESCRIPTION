@@ -1,5 +1,5 @@
-Package: MCBeerRecommender
-Title: BEER ME
+Package: BeerMe
+Title: BeerMe
 Version: 0.0.0.9000
 Authors@R: person('Stephen', 'Pelkofer', email = 'spelkofer24@yahoo.com', role = c('cre', 'aut'))
 Description: This is an interactive web application that provides recommendations based on beers that you already know you like.
@@ -30,8 +30,8 @@ Imports:
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.0
-URL: https://github.com/spelk24/BeerRecommonderApp.git
-BugReports: https://github.com/spelk24/BeerRecommonderApp.git/issues
+URL: https://github.com/spelk24/BeerMe.git
+BugReports: https://github.com/spelk24/BeerMe.git/issues
 Suggests: 
     testthat
 Depends: 

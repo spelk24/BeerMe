@@ -44,7 +44,7 @@ usethis::use_test( "app" )
 # Documentation
 
 ## Vignette ----
-usethis::use_vignette("MCBeerRecommender")
+usethis::use_vignette("BeerMe")
 devtools::build_vignettes()
 
 ## Code Coverage ----

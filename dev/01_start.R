@@ -14,13 +14,13 @@
 ## Fill the DESCRIPTION ----
 ## Add meta data about your application
 golem::fill_desc(
-  pkg_name = "MCBeerRecommender", # The Name of the package containing the App 
-  pkg_title = "MCBeerRecommender", # The Title of the package containing the App 
+  pkg_name = "BeerMe", # The Name of the package containing the App 
+  pkg_title = "BeerMe", # The Title of the package containing the App 
   pkg_description = "This is an interactive web application that provides recommendations based on beers that you already know you like.", # The Description of the package containing the App 
   author_first_name = "Stephen", # Your First Name
   author_last_name = "Pelkofer", # Your Last Name
   author_email = "spelkofer24@yahoo.com", # Your Email
-  repo_url = "https://github.com/spelk24/BeerRecommonderApp.git" # The URL of the GitHub Repo (optional) 
+  repo_url = "https://github.com/spelk24/BeerMe.git" # The URL of the GitHub Repo (optional) 
 )   
 
 ## Set {golem} options ----
@@ -47,7 +47,6 @@ golem::use_recommended_deps()
 ## Favicon ----
 # If you want to change the favicon (default is golem's one)
 golem::remove_favicon()
-golem::use_favicon("/Users/spelkofer/Desktop/Desktop/GitHub/MCBeerRecommender/BeerLogo.png") # path = "path/to/ico". Can be an online file. 
 
 ## Add helper functions ----
 golem::use_utils_ui()
