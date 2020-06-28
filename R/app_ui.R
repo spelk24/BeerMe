@@ -5,6 +5,9 @@
 #' @import shiny
 #' @import shinythemes
 #' @noRd
+# Run the application
+
+
 app_ui <- function(request) {
   tagList(
     # Leave this function for adding external resources
@@ -30,8 +33,7 @@ app_ui <- function(request) {
                           the methodology tab."),
                           mod_UMAP_Scatter_ui("UMAP_Scatter_ui_1"),
                           ),
-                 tabPanel("Methodology",
-                          uiOutput('markdown'))
+                 tabPanel("Methodology",includeMarkdown("Methodology/Methodology.md"))
                 )
   )
 )

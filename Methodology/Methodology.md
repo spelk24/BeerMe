@@ -1,17 +1,4 @@
----
-title: "Beer Me Methodology"
-author: "Stephen Pelkofer"
-output:
-  html_document:
-    theme: lumen
-    toc: true
-    toc_float: true
----
-
-```{r setup, include=FALSE}
-library(knitr)
-knitr::opts_chunk$set(echo = TRUE)
-```
+# Beer Me Methodology
 
 In the "Beer Me" analysis, several steps were performed before reaching the end outputs on the "Beer Comparisons" tab. At a high level
 here was the process:
@@ -41,7 +28,8 @@ Parts 1 and 2 are not important to the methodology used in the application, so I
 
 The following packages are needed.
 
-```{r message = FALSE}
+
+```r
 library(tidyverse)
 library(stringr)
 library(ggtext)
@@ -54,8 +42,8 @@ library(kableExtra)
 library(formattable)
 ```
 
-```{r  include = TRUE, message = FALSE}
-beer_data <- read.csv("../data-raw/CleanedBeerData.csv")
+
+```r
 beer_full <- beer_data %>%
   select(!c("Calories_from_fat","Cholesterol_mg","Fat_grams","Saturated_fat_grams","Trans_fat_grams","Fiber_grams"))
 ```
@@ -66,7 +54,8 @@ Partition around medics (PAM) is an algorithm that is intended to find objects (
 
 I used the PAM clustering algorithm on the full beer data set. Before I ran the model, I had to create a distance matrix form the data. The distance matrix has pairwise distances for each data point. I used the [gower distance]("https://medium.com/@rumman1988/clustering-categorical-and-numerical-datatype-using-gower-distance-ab89b3aa90d9#:~:text=Gower%20Distance%20is%20a%20distance,of%20categorical%20and%20numerical%20values."), because I had a mix of numerical and categorical variables.
 
-```{r}
+
+```r
 # Gower Dist
 cluster_data_input <- beer_full %>% select(!c("Brand","Brand_Style","Ingredients")) # Don't include raw text columns
 cluster_dist_input <- dist(cluster_data_input, method = "gower")
@@ -74,8 +63,12 @@ cluster_dist_input <- dist(cluster_data_input, method = "gower")
 
 For the PAM cluster, I chose k = 10 (clusters) based on the [Silhouette method](https://en.wikipedia.org/wiki/Silhouette_(clustering), which is a measure of how similar objects are to their cluster label. Values for k = 5:20 produced similar silhouette scores, but I chose 10 based on some domain knowledge of the beer data set.
 
-```{r}
+
+```r
 pam_cluster <- pam(x = cluster_dist_input, k = 10, diss = TRUE, cluster.only = TRUE)
+```
+
+```r
 beer_data_with_clusters <- beer_full %>%
   mutate(Ingr_Cluster = as.factor(pam_cluster))
 ```
@@ -95,7 +88,8 @@ I'm using the [uwot package](https://github.com/jlmelville/uwot) implementation 
 
 The code below shows the UMAP implementations. I've included the cluster labels as a target variable, and gave that variable a 50% weight. This is not mandatory - I don't even have to use a target variable, but the cluster labels likely provide meaningful information in are otherwise sparse data set.
 
-```{r}
+
+```r
 ## UMAP
 umap_data_input <- beer_data_with_clusters %>% 
   select(!contains("Brand")) %>%
@@ -115,9 +109,10 @@ umap_output <- uwot::umap(umap_data_input,
 
 For more information of the hypyerparameters that you can tune in uwot::umap(), check out this link [UMAP hyperparameters](https://rdrr.io/cran/uwot/man/umap.html).
 
-Now that I have the 2-D output from UMAP, I can plot this using ggplot2 and add the cluster label as the color. This is a pretty good visual representation of the beer data set. Since I gave a 50% weight to the target feature (the cluster label), objects in the same cluster tend to be pretty close together, but not always. In the scatterplot, the cluster label is the color.
+Now that I have the 2-D output from UMAP, I can plot this using ggplot2 and add the cluster label as the color. This is a pretty good visual representation of the beer data set. Since I gave a 50% weight to the target feature (the cluster label), objects in the same cluster tend to be pretty close together, but not always. In the scatter plot, the cluster label is the color.
 
-```{r}
+
+```r
 # Plotting UMAP
 umap_plotting_data <- cbind(beer_data_with_clusters,umap_output$embedding)
 umap_plotting_data <- umap_plotting_data %>% rename(UMAP_X = `1`,UMAP_Y = `2`)
@@ -138,39 +133,40 @@ gg_umap <- ggplot(data = umap_plotting_data,aes(x = UMAP_X,
         panel.grid.major = element_line(colour = "#f0f0f0",size = .1)) + 
   geom_jitter(width = 1.5, height = 1.5,alpha = .6,
               show.legend = FALSE) #used because some beers are *too* similar and overlap
-
-ggplotly(gg_umap, tooltip = "text") %>%
-            config(displayModeBar = F)
 ```
+
+<img src="umap_scatter.png" width="500" height="400" />
 
 # Nearest Neighbors & Recommendations
 
 As I mentioned earlier, because I have a smaller data set (n = 222), UMAP can extract the exact nearest neighbors. The code below creates a "nearest neighbors" data set, which I'll use to show beer recommendations based on any given selection.
 
-```{r}
+```r
 # Extract Nearest Neigbor Data
 beer_nn_data <- cbind(beer_data %>% select("Brand","Brand_Style"),umap_output$nn)
-
 beer_nn_data <- beer_nn_data %>%
   pivot_longer(starts_with("euclidean"),
                names_to = c(".value", "set"),
                names_pattern = "(euclidean\\.[a-z]*\\.)(.)")
-  
 names(beer_nn_data) <- c("Brand","Brand_Style","Neighbor_Rk","Neighbor_Idx","Neighbor_Dist")
 ```
 
 I'll show two examples. One go-to beer, and one beer that's not so basic. Here are the top recommendations if you enjoy Miller Lite, but you're looking to try a different domestic MolsonCoors product.
 
-```{r}
+
+```r
 selection <- c("Miller Lite")
 idxs <- beer_nn_data %>% filter(Brand %in% selection, Neighbor_Rk <= 5) %>% pull(Neighbor_Idx)
+
 neighbor_points <- beer_full %>%
   filter(Brand != selection) %>%
   slice(idxs) %>%
   select(Brand, Brand_Style, ABV, Calories)
+
 neighbor_points <- neighbor_points %>%
   mutate(ABV = color_tile("white","#df8d03")(ABV),
          Calories = color_bar("#fae96f")(Calories))
+
 kable(neighbor_points, escape = F) %>% 
   kable_styling(full_width = FALSE, position = "left",
                 bootstrap_options = c("hover")) %>% 
@@ -178,21 +174,27 @@ kable(neighbor_points, escape = F) %>%
   column_spec(3:4,width = "1cm") %>% 
   add_header_above(c(" "= 2, "Nutrition" = 2))
 ```
+
+<img src="Rplot.png" width="400" height="300" />
 
 The Miller Lite comparisons shouldn't come as a big surprise, but if you're looking for something lighter with a little extra ABV, Molson Canadian might be your new lager!
 
 The next example will be for Blue Moon Honey Wheat. The recommendations for this one aren't quite as obvious. 
 
-```{r}
+
+```r
 selection <- c("Blue Moon Honey Wheat")
 idxs <- beer_nn_data %>% filter(Brand %in% selection, Neighbor_Rk <= 5) %>% pull(Neighbor_Idx)
+
 neighbor_points <- beer_full %>%
   filter(Brand != selection) %>%
   slice(idxs) %>%
   select(Brand, Brand_Style, ABV, Calories)
+
 neighbor_points <- neighbor_points %>%
   mutate(ABV = color_tile("white","#df8d03")(ABV),
          Calories = color_bar("#fae96f")(Calories))
+
 kable(neighbor_points, escape = F) %>% 
   kable_styling(full_width = FALSE, position = "left",
                 bootstrap_options = c("hover")) %>% 
@@ -200,6 +202,7 @@ kable(neighbor_points, escape = F) %>%
   column_spec(3:4,width = "1cm") %>% 
   add_header_above(c(" "= 2, "Nutrition" = 2))
 ```
+<img src="Rplot01.png" width="450" height="300" />
 
 I've personally had none of these beers, so I have a few to try out; especially that Blue Moon Iced Coffee Blonde.
 
