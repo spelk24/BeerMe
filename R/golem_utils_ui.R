@@ -294,6 +294,7 @@ col_1 <- function(...){
   column(1, ...)
 }
 
+
 # UNCOMMENT AND USE 
 # 
 # usethis::use_package("markdown")
