@@ -66,6 +66,7 @@ mod_UMAP_Scatter_server <- function(input, output, session){
                   height = 1.2,
                   alpha = .6,
                   show.legend = TRUE) +
+      ylim(-12,25) +
       labs(title = "UMAP Respresentation of Beer Data",
            x = "UMAP 1",
            y = "UMAP 2") +
@@ -75,20 +76,19 @@ mod_UMAP_Scatter_server <- function(input, output, session){
       theme(plot.title = element_markdown(size = 14),
             plot.subtitle = element_markdown(size = 10),
             plot.caption = element_markdown(),
-            legend.position = "bottom",
             legend.title = element_markdown(size = 10),
             axis.title = element_markdown(size = 10),
             axis.ticks = element_blank(),
             axis.text = element_blank(),
             panel.background  = element_rect(fill = "white"),
-            panel.grid.major = element_line(colour="#F0F3F4", size=0.25),
-            axis.line = element_line(color = "#d9d9d9",size = 1.5))
+            panel.grid.major = element_line(colour="#F0F3F4", size=0.20),
+            axis.line = element_line(color = "#d9d9d9",size = 1.2))
     
     ggplotly(gg_umap, tooltip = "text") %>%
       config(displayModeBar = F) %>%
       layout(title = list(text = paste0("UMAP Coordinates")),
              legend = list(orientation = "h",
-                           y = 15, x = 0.5))
+                           yanchor = "top", x = 0, y = 1.02))
   })
     
   output$Neighbor_Table <- function() {
