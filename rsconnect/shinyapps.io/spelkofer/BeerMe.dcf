@@ -1,0 +1,10 @@
+name: BeerMe
+title: BeerMe
+username:
+account: spelkofer
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2514523
+bundleId: 3326585
+url: https://spelkofer.shinyapps.io/BeerMe/
+when: 1593373301.40883

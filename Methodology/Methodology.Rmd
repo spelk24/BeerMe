@@ -57,7 +57,6 @@ library(magick)
 ```
 
 ```{r  include = TRUE, message = FALSE}
-beer_data <- read_csv("/Users/spelkofer/Desktop/Desktop/GitHub/MCBeerRecommender/data-raw/CleanedBeerData.csv")
 beer_full <- beer_data %>%
   select(!c("Calories_from_fat","Cholesterol_mg","Fat_grams","Saturated_fat_grams","Trans_fat_grams","Fiber_grams"))
 ```
