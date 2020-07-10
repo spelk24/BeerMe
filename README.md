@@ -5,6 +5,8 @@
 that is interactive and exploratory. The application includes the methodology used to create the system, which can 
 be read below.
 
+Link: [spelkofer.shinyapps.io/BeerMe](https://spelkofer.shinyapps.io/BeerMe/)
+
 # Data Source
 
 All data was scraped from [MolsonCoors.com](https://www.molsoncoors.com/)
